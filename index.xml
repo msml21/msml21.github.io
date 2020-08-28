@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Hugo Serif Theme</title>
+    <title>Home on MSML21</title>
     <link>msml21.github.io/</link>
-    <description>Recent content in Home on Hugo Serif Theme</description>
+    <description>Recent content in Home on MSML21</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2018 17:01:34 +0700</lastBuildDate>
@@ -145,6 +145,15 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>msml21.github.io/about/</guid>
+      <description>General Chairs: Joan Bruna, Jan Hesthaven, Lenka Zdeborova</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>msml21.github.io/aboutbk/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>msml21.github.io/aboutbk/</guid>
       <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
 Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
  Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
@@ -156,8 +165,7 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>msml21.github.io/contact/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-   Day Opening Hours     Tuesday 8:30am - 5:00pm   Wednesday 8:30am - 5:00pm   Thursday 8:30am - 5:00pm   Friday 8:30am - 5:00pm   Saturday 10:am - 4:00pm   Saturday Closed    </description>
+      <description>msml21chairs@gmail.com</description>
     </item>
     
   </channel>
