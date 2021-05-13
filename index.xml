@@ -32,6 +32,18 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
+      <title>Accepted Papers</title>
+      <link>https://msml21.github.io/accepted/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/accepted/</guid>
+      <description>Optimization and Algorithms   Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
+  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
+  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)
+  BEAR: Sketching BFGS Algorithm for Ultra-High Dimensional Feature Selection in Sublinear Memory, Amirali Aghazadeh (UC Berkeley), Vipul Gupta (UC Berkeley); Alex DeWeese (University of California); O.</description>
+    </item>
+    
+    <item>
       <title>Call for Papers</title>
       <link>https://msml21.github.io/cfp/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
