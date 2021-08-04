@@ -48,9 +48,9 @@ MSML2021 is the second edition of a newly established conference, with emphasis 
       
       <guid>https://msml21.github.io/session8/</guid>
       <description>Chair: Eric Vanden-Eijnden (NYU) ###Time: August 19th,
- Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video
- Numerical Calabi-Yau metrics from holomorphic networks, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)  slides video
- A Data Driven Method for Computing Quasipotentials, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)  slides video</description>
+ Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video paper
+ Numerical Calabi-Yau metrics from holomorphic networks, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)  slides video paper
+ A Data Driven Method for Computing Quasipotentials, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)  slides video paper</description>
     </item>
     
     <item>
@@ -90,9 +90,9 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session4/</guid>
-      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  slides video
- Construction of optimal spectral methods in phase retrieval, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)  slides video
- Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)  slides video</description>
+      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  slides video paper
+ Construction of optimal spectral methods in phase retrieval, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)  slides video paper
+ Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)  slides video paper</description>
     </item>
     
     <item>
@@ -101,8 +101,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session5/</guid>
-      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  slides video
- Solving Bayesian Inverse Problems via Variational Autoencoders, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)  slides video</description>
+      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  slides video paper
+ Solving Bayesian Inverse Problems via Variational Autoencoders, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)  slides video paper</description>
     </item>
     
     <item>
@@ -120,10 +120,10 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session2/</guid>
-      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  slides video
- Orientation-Preserving Vectorized Distance Between Curves, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)  slides video
- Solvable Model for Inheriting the Regularization through Knowledge Distillation, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)  slides video
- Dynamic Algorithms for Online Multiple Testing, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)  slides video</description>
+      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  slides video paper
+ Orientation-Preserving Vectorized Distance Between Curves, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)  slides video paper
+ Solvable Model for Inheriting the Regularization through Knowledge Distillation, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)  slides video paper
+ Dynamic Algorithms for Online Multiple Testing, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)  slides video paper</description>
     </item>
     
     <item>
@@ -132,8 +132,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session3/</guid>
-      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  slides video
- Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)  slides video</description>
+      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  slides video paper
+ Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)  slides video paper</description>
     </item>
     
     <item>
@@ -168,9 +168,9 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session1/</guid>
-      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video
- Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  slides video
- A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)  slides video</description>
+      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video paper
+ Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  slides video paper
+ A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)  slides video paper</description>
     </item>
     
     <item>
@@ -179,9 +179,9 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session7/</guid>
-      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  slides video
- A deep learning method for solving Fokker-Planck equations, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)  slides video
- Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)  slides video</description>
+      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  slides video paper
+ A deep learning method for solving Fokker-Planck equations, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)  slides video paper
+ Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)  slides video paper</description>
     </item>
     
     <item>
@@ -220,9 +220,9 @@ August 19th</description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session6/</guid>
-      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  slides video
- Ground States of Quantum Many Body Lattice Models via Reinforcement Learning, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)  slides video
- Decentralized Multi-Agents by Imitation of a Centralized Controller, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)  slides video</description>
+      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  slides video paper
+ Ground States of Quantum Many Body Lattice Models via Reinforcement Learning, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)  slides video paper
+ Decentralized Multi-Agents by Imitation of a Centralized Controller, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)  slides video paper</description>
     </item>
     
     <item>
