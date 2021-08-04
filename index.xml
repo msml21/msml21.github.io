@@ -37,7 +37,8 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/accepted/</guid>
-      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin)   Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
+      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin) content
+  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
   Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
   A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
     </item>
@@ -105,6 +106,17 @@ Update: After careful analysis of the situation, we have decided to hold this ev
   Nathan Kutz (Applied Mathematics, University of Washington)
   Nicola Marzari (Materials, EPFL)
   Stanley Osher (Mathematics, UCLA)</description>
+    </item>
+    
+    <item>
+      <title>Optimization and Algorithms</title>
+      <link>https://msml21.github.io/session1/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session1/</guid>
+      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides
+  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
+  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
     </item>
     
     <item>
