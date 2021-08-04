@@ -32,18 +32,6 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
-      <title>Accepted Papers</title>
-      <link>https://msml21.github.io/accepted/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>https://msml21.github.io/accepted/</guid>
-      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin) content
-  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
-  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
-  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
-    </item>
-    
-    <item>
       <title>Call for Papers</title>
       <link>https://msml21.github.io/cfp/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -51,6 +39,17 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
       <guid>https://msml21.github.io/cfp/</guid>
       <description>We invite submissions to the Mathematical and Scientific Machine Learning.
 MSML2021 is the second edition of a newly established conference, with emphasis on promoting the study of mathematical theory and algorithms of machine learning, as well as applications of machine learning in scientific computing and engineering disciplines. This conference aims to bring together the communities of machine learning, applied mathematics, and computational science and engineering, to exchange ideas and progress in this fast growing field.</description>
+    </item>
+    
+    <item>
+      <title>Conference Program</title>
+      <link>https://msml21.github.io/accepted/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/accepted/</guid>
+      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin)   Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
+  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
+  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
     </item>
     
     <item>
@@ -114,9 +113,9 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session1/</guid>
-      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides
-  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
-  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
+      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video
+ Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  slides video
+ A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)  slides video</description>
     </item>
     
     <item>
