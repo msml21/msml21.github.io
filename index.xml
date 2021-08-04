@@ -42,6 +42,18 @@ MSML2021 is the second edition of a newly established conference, with emphasis 
     </item>
     
     <item>
+      <title>Computational Physics</title>
+      <link>https://msml21.github.io/session8/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session8/</guid>
+      <description>Chair: Eric Vanden-Eijnden (NYU) ###Time: August 19th,
+ Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video
+ Numerical Calabi-Yau metrics from holomorphic networks, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)  slides video
+ A Data Driven Method for Computing Quasipotentials, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)  slides video</description>
+    </item>
+    
+    <item>
       <title>Conference Program</title>
       <link>https://msml21.github.io/accepted/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -73,12 +85,55 @@ Update: After careful analysis of the situation, we have decided to hold this ev
     </item>
     
     <item>
+      <title>High Dimensional Statistics</title>
+      <link>https://msml21.github.io/session4/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session4/</guid>
+      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  slides video
+ Construction of optimal spectral methods in phase retrieval, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)  slides video
+ Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)  slides video</description>
+    </item>
+    
+    <item>
+      <title>Inverse Problems</title>
+      <link>https://msml21.github.io/session5/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session5/</guid>
+      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  slides video
+ Solving Bayesian Inverse Problems via Variational Autoencoders, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)  slides video</description>
+    </item>
+    
+    <item>
       <title>Key Dates</title>
       <link>https://msml21.github.io/dates/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/dates/</guid>
       <description>DEADLINE EXTENSION: December 11th, 2020, 11:59pm (AOE)  Submission deadline: December 4th, 2020, 11:59pm (AOE) December 11th, 2020 (AOE). First round reviews: February 1st, 2021. Revision deadline: March 5th, 2021. Final Decisions : End of March, 2021. Conference: August 16-19th, 2021.  </description>
+    </item>
+    
+    <item>
+      <title>Learning Foundations I</title>
+      <link>https://msml21.github.io/session2/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session2/</guid>
+      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  slides video
+ Orientation-Preserving Vectorized Distance Between Curves, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)  slides video
+ Solvable Model for Inheriting the Regularization through Knowledge Distillation, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)  slides video
+ Dynamic Algorithms for Online Multiple Testing, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)  slides video</description>
+    </item>
+    
+    <item>
+      <title>Learning Foundations II</title>
+      <link>https://msml21.github.io/session3/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session3/</guid>
+      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  slides video
+ Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)  slides video</description>
     </item>
     
     <item>
@@ -119,6 +174,17 @@ Update: After careful analysis of the situation, we have decided to hold this ev
     </item>
     
     <item>
+      <title>PDEs and ODEs</title>
+      <link>https://msml21.github.io/session7/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session7/</guid>
+      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  slides video
+ A deep learning method for solving Fokker-Planck equations, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)  slides video
+ Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)  slides video</description>
+    </item>
+    
+    <item>
       <title>Plenary Speakers</title>
       <link>https://msml21.github.io/keynote/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -146,6 +212,17 @@ August 19th</description>
       
       <guid>https://msml21.github.io/pc/</guid>
       <description>General Chairs  Joan Bruna (New York University) Jan Hesthaven (EPFL) Lenka Zdeborova (EPFL)  Program Chairs  Afonso Bandeira (ETH) Jean Barbier (International Centre for Theoretical Physics) Quentin Berthet (Google) Steven L. Brunton (University of Washington) Chiara Cammarota (Sapienza, University of Rome) Michele Ceriotti (EPFL) Xiuyuan Cheng (Duke University) Lenaic Chizat (CNRS) Kyle Cranmer (NYU) Gábor Csányi (University of Cambridge) Bin Dong (Peking University) Boris Hanin (Princeton University) Shirley Ho (Flatiron Institute) Arnulf Jentzen (University of Munster) Gitta Kutyniok (LMU Munich) Qianxiao Li (NUS) Jianfeng Lu (Duke University) Pankaj Mehta (Boston University) Frank Noe (FU Berlin) Benjamin Peherstofer (NYU) Paris Perdikaris (University of Pennsylvania) Lars Ruthotto (Emory University) Themis Sapsis (MIT) Eric Vanden-Eijnden (NYU) Soledad Villar (Johns Hopkins University) Lei Wang (IOP) Rachel Ward (UT Austin)  Local Committee  Emmanuel Abbé Daniel Kressner Anne-Clemence Corminboeuf Victor Panaretos  </description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning and Control</title>
+      <link>https://msml21.github.io/session6/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/session6/</guid>
+      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  slides video
+ Ground States of Quantum Many Body Lattice Models via Reinforcement Learning, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)  slides video
+ Decentralized Multi-Agents by Imitation of a Centralized Controller, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)  slides video</description>
     </item>
     
     <item>
