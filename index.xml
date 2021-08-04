@@ -49,8 +49,8 @@ MSML2021 is the second edition of a newly established conference, with emphasis 
       <guid>https://msml21.github.io/session8/</guid>
       <description>Chair: Eric Vanden-Eijnden (NYU) ###Time: August 19th,
  Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video paper
- Numerical Calabi-Yau metrics from holomorphic networks, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)  slides video paper
- A Data Driven Method for Computing Quasipotentials, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)  slides video paper</description>
+Paper Highlight, by Yibo Yang:
+ This paper proposes an unsupervised learning method &amp;mdash;- Implicit Form Neural Networks (IFNN) using neural networks to solve partial differential equations (PDEs) whose solutions have discontinuities such as shock waves, etc.</description>
     </item>
     
     <item>
