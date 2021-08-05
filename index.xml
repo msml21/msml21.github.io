@@ -64,6 +64,17 @@ Paper Highlight, by Yibo Yang:
     </item>
     
     <item>
+      <title>Conference Program</title>
+      <link>https://msml21.github.io/accepted_old/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/accepted_old/</guid>
+      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin)   Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
+  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
+  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://msml21.github.io/contact/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -89,9 +100,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session4/</guid>
-      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  slides video paper
- Construction of optimal spectral methods in phase retrieval, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)  slides video paper
- Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)  slides video paper</description>
+      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  Paper Highlight, by Galen Reeves
+ The problem of graph alignment is to find the correspondence between the vertices in two graphs based on matching values associated with the vertices. This paper studies the fundamental limits of a particular version of this problem where the weights are correlated Gaussian variables.</description>
     </item>
     
     <item>
@@ -100,8 +110,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session5/</guid>
-      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  slides video paper
- Solving Bayesian Inverse Problems via Variational Autoencoders, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)  slides video paper</description>
+      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  Paper Highlight, by Nadav Dym
+ Consider a matrix that is composed of a linear combination of the lowest harmonic vectors of some product graph. This is a structured low-rank model, but one which arises naturally in recommender systems, where similar users tend to give similar ratings, and similar items should have similar ratings.</description>
     </item>
     
     <item>
@@ -119,10 +129,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session2/</guid>
-      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  slides video paper
- Orientation-Preserving Vectorized Distance Between Curves, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)  slides video paper
- Solvable Model for Inheriting the Regularization through Knowledge Distillation, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)  slides video paper
- Dynamic Algorithms for Online Multiple Testing, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)  slides video paper</description>
+      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  Paper Highlight, by Song Mei
+ Learning probability distributions such as generative models and density estimators are among the most essential tasks in machine learning, but its mathematical foundations are not yet well-established. This paper provided a theoretical foundation for the bias potential model, which is a simple mathematical model of probability distributions.</description>
     </item>
     
     <item>
@@ -131,8 +139,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session3/</guid>
-      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  slides video paper
- Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)  slides video paper</description>
+      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  Paper Highlight, by Marylou Gabrie
+ This paper proposes a new method for generative modeling based on learning a composition of residual maps that move gradually a simple base distribution toward a target distribution.</description>
     </item>
     
     <item>
@@ -168,8 +176,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       
       <guid>https://msml21.github.io/session1/</guid>
       <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video paper
- Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  slides video paper
- A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)  slides video paper</description>
+ Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  Paper Highlight, by Manuel Saenz
+ &amp;ldquo;Although this work addresses the performance of a semi-definite program for studying non-negative principal component analysis, some of its relevance lies beyond this particular problem.</description>
     </item>
     
     <item>
@@ -178,9 +186,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session7/</guid>
-      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  slides video paper
- A deep learning method for solving Fokker-Planck equations, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)  slides video paper
- Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)  slides video paper</description>
+      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  Paper Highlight, by Juncai He
+ Barron and tree-like spaces are considered as appropriate function spaces to study the mathematical aspects of neural networks with one or multi hidden layers. This paper presents some observations about the Barron or tree-like regularities of solutions of three prototypical PDEs (screened Poisson, heat, and viscous HJB).</description>
     </item>
     
     <item>
@@ -219,9 +226,8 @@ August 19th</description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session6/</guid>
-      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  slides video paper
- Ground States of Quantum Many Body Lattice Models via Reinforcement Learning, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)  slides video paper
- Decentralized Multi-Agents by Imitation of a Centralized Controller, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)  slides video paper</description>
+      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  Paper Highlight, by Antonio Celani
+ Bellman residual minimization with stochastic gradient descent (SGD) is a stable temporal-difference method whose usefulness is limited by the need of two independent samples for the state that will be visited next, rather than just one sample.</description>
     </item>
     
     <item>

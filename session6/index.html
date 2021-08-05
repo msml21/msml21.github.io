@@ -159,23 +159,42 @@
 <ul>
 <li><strong>Borrowing From the Future: Addressing Double Sampling in Model-free Control</strong>, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)</li>
 </ul>
-<p><a href="../slides/id33.pdf">slides</a> <a href="https://drive.google.com/file/d/1GCTQXBFVPofdouDHQ9ik0ZoEbPHzJnEj/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Antonio Celani</em></p>
+<blockquote>
+<p>Bellman residual minimization with stochastic gradient descent (SGD) is a stable temporal-difference method whose usefulness is limited by the need of two independent samples for the state that will be visited next, rather than just one sample. This second independent sample is often not accessible. To get around this issue the authors extend the borrowing-from-the-future (BFF) algorithm to action-value function based model-free control. The analysis of the algorithm shows that when the underlying dynamics vary slowly with respect to the actions, it approximates well the unbiased SGD. The authors then confirm their theoretical findings with numerical simulations.  This paper addresses an important issue in Temporal Difference Control with function approximation with great clarity and paves the way towards further developments of this algorithmic approach to Reinforcement Learning.</p>
+</blockquote>
+<p><a href="../slides/id33.pdf">slides</a> <a href="https://drive.google.com/file/d/1GCTQXBFVPofdouDHQ9ik0ZoEbPHzJnEj/view?usp=sharing">video</a> <a href="../papers/id33.pdf">paper</a></p>
 <ul>
 <li><strong>Ground States of Quantum Many Body Lattice Models via Reinforcement Learning</strong>, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)</li>
 </ul>
-<p><a href="../slides/id51.pdf">slides</a> <a href="">video</a> <a href="">paper</a></p>
+<p><a href="../slides/id51.pdf">slides</a> <a href="https://drive.google.com/file/d/1PG-Xkj38n5KkHMYy6KyuHtBqWl44tF8M/view?usp=sharing">video</a> <a href="../papers/id51.pdf">paper</a></p>
 <ul>
 <li><strong>Decentralized Multi-Agents by Imitation of a Centralized Controller</strong>, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)</li>
 </ul>
-<p><a href="../slides/id53.pdf">slides</a> <a href="https://drive.google.com/file/d/1WX2U3ietg2u9ghh6dhCn66g0qpjbNIr6/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Dmitry Borisovich Rokhlin</em></p>
+<blockquote>
+<p>The paper concerns the construction of decentralized agent strategies with local observations by a dynamical version of the supervised learning. This construction is based on a centralized controller
+(expert), which is trained under the full observability assumption. The fruitful idea is to sequentially extend the training set by application of the current agent policies and train these policies on the
+extended set by measuring the deviation from the expert policy by some loss function. The authors provide interesting applications to complex learning tasks such as StarCraft 2 game and cooperative
+navigation.</p>
+</blockquote>
+<p><a href="../slides/id53.pdf">slides</a> <a href="https://drive.google.com/file/d/1WX2U3ietg2u9ghh6dhCn66g0qpjbNIr6/view?usp=sharing">video</a> <a href="../papers/id53.pdf">paper</a></p>
 <ul>
 <li><strong>Noise-Robust End-to-End Quantum Control using Deep Autoregressive Policy Networks</strong>, Jiahao Yao (University of California, Berkeley), Paul Köttering (University of California, Berkeley); Hans Gundlach (University of California, Berkeley); Lin Lin (University of California, Berkeley); Marin Bukov (University of California, Berkeley)</li>
 </ul>
-<p><a href="../slides/id56.pdf">slides</a> <a href="https://drive.google.com/file/d/1u9VjFfT3iZwRkPt3dl3lthlmk0TmvdzW/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Gautam Nallamala</em></p>
+<blockquote>
+<p>Machine learning models are a natural source of optimization methods to problems in quantum control, which are often formulated as the task of directing an initial quantum state to the ground state of a many-body system using an appropriate sequence of unitary evolution operators. Quantum many-body states are intrinsically high-dimensional and the energy landscape has a complex, non-convex structure, which makes deep reinforcement learning (DRL) an appropriate framework for the task. In this paper, the authors develop a hybrid discrete-continuous DRL algorithm to prepare the ground state of a quantum Ising model. The task can be formulated as a goal-oriented &ldquo;foraging&rdquo; task of finding an appropriate sequence of unitary operations to rotate an initial state towards a minimal energy state (which is a priori unknown). Past work done on the same setup either optimized for the discrete choice of rotation operators and used black-box methods to find the durations of each operation (CD-QAOA) or considered only two operators and optimized for the durations using a policy gradient-based algorithm (PG-QAOA). While the former produced better solutions, the latter was found to be more robust to noise. This works combines insights from the two previous approaches and develops an algorithm (RL-QAOA) that achieves a good solution while also being noise-robust. The developed algorithm has potential applications beyond quantum control, for example, hierarchical control problems such as motor sequence execution in which it is not only important to choose which actions from a broad class are to be executed but also how this action is to be performed specifically in a given context.</p>
+</blockquote>
+<p><a href="../slides/id56.pdf">slides</a> <a href="https://drive.google.com/file/d/1u9VjFfT3iZwRkPt3dl3lthlmk0TmvdzW/view?usp=sharing">video</a> <a href="../papers/id56.pdf">paper</a></p>
 <ul>
 <li><strong>Temporal-difference learning with nonlinear function approximation: lazy training and mean field regimes</strong>, Andrea Agazzi (Duke University), Jianfeng Lu (Duke University)</li>
 </ul>
-<p><a href="../slides/id57.pdf">slides</a> <a href="https://drive.google.com/file/d/1M5berpG8kJNll_JFllmq8SbSvPYZ5b65/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Phan-Minh Nguyen</em></p>
+<blockquote>
+<p>The convergence behavior of the Temporal-difference (TD) learning algorithm is an important open problem. The paper gives several positive results in the difficult nonlinear TD setting with large-width two-layer neural networks, all via interesting connections with recent advances in analyses of neural network dynamics: lazy and mean field training. In particular, in the lazy regime, the paper neatly exploits the idea of linearization, thereby allowing to apply previous insights from the linear TD setting. In the mean field regime where linearization no longer holds, the paper again recognizes applicability of a number of ideas from previous studies of mean field gradient descent training, such as Wasserstein flows, topological invariance and the instability argument under universal approximation. It has to be emphasized that these connections are not a priori obvious and technical works require careful execution. For much to be done in about 40 pages, the paper would be a nice read to those who seek new directions in theoretical reinforcement learning, as well as those who hope to find inspirations beyond the gradient-based supervised learning context.</p>
+</blockquote>
+<p><a href="../slides/id57.pdf">slides</a> <a href="https://drive.google.com/file/d/1M5berpG8kJNll_JFllmq8SbSvPYZ5b65/view?usp=sharing">video</a> <a href="../papers/id57.pdf">paper</a></p>
 </div>
     </div>
   </div>

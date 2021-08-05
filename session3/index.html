@@ -159,27 +159,51 @@
 <ul>
 <li><strong>Deep Generative Learning via Euler Particle Transport</strong>, Yuan Gao (Xi&rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)</li>
 </ul>
-<p><a href="../slides/id8.pdf">slides</a> <a href="https://drive.google.com/file/d/1daxIs4AmGRm_ogCoRVzPbuadxUTTpmCF/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Marylou Gabrie</em></p>
+<blockquote>
+<p>This paper proposes a new method for generative modeling based on learning a composition of residual maps that move gradually a simple base distribution toward a target distribution. This approach is nicely inspired by an optimal transport problem and proven useful in practice. A remarkable component of the paper is also the authors’ effort to control theoretically the sources of error in the implementation of the algorithm.</p>
+</blockquote>
+<p><a href="../slides/id8.pdf">slides</a> <a href="https://drive.google.com/file/d/1daxIs4AmGRm_ogCoRVzPbuadxUTTpmCF/view?usp=sharing">video</a> <a href="../papers/id8.pdf">paper</a></p>
 <ul>
 <li><strong>Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients</strong>, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)</li>
 </ul>
-<p><a href="../slides/id11.pdf">slides</a> <a href="https://drive.google.com/file/d/13wk2DmN8vxmDTXbVJDMjK9DBGa0x-z32/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Lei Wu</em></p>
+<blockquote>
+<p>This paper shows that the adversarial robustness of neural ODEs observed in previous works comes from the gradient masking, which is caused by the numerical discretization of the ODEs. As a result, the models based on neural ODEs are robust against gradient-based attacks (e.g. PGD) but vulnerable to gradient-free attacks, such as SPSA.</p>
+</blockquote>
+<p><a href="../slides/id11.pdf">slides</a> <a href="https://drive.google.com/file/d/13wk2DmN8vxmDTXbVJDMjK9DBGa0x-z32/view?usp=sharing">video</a> <a href="../papers/id11.pdf">paper</a></p>
 <ul>
 <li><strong>On the emergence of tetrahedral symmetry in the final and penultimate layers of neural network classifiers</strong>, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)</li>
 </ul>
-<p><a href="../slides/id34.pdf">slides</a> <a href="https://drive.google.com/file/d/1zRDsy7UJrj-Ry-Hb_Ooetk82CBhpAJZa/view?usp=sharing">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Zhengdao Chen</em></p>
+<blockquote>
+<p>This paper presents nice theoretical analyses of the &ldquo;Neural Collapse&rdquo; phenomenon described in Papyan et al. (2020). The main results are two-fold: 1) When the hypothesis class is rich enough and we consider the minimizer of the loss function under a norm constraint, then the outputs of the final or penultimate layers are proved to collapse to single points with a tetrahedral configuration; 2) The authors show that the collapse is not guaranteed to happen for two-layer neural networks trained by gradient flow in two concrete examples, by exploiting the convergence to max-margin solutions and by considering input classes that are not convex.</p>
+</blockquote>
+<p><a href="../slides/id34.pdf">slides</a> <a href="https://drive.google.com/file/d/1zRDsy7UJrj-Ry-Hb_Ooetk82CBhpAJZa/view?usp=sharing">video</a> <a href="../papers/id34.pdf">paper</a></p>
 <ul>
 <li><strong>Deep Neural Networks Are Effective At Learning High-Dimensional Hilbert-Valued Functions From Limited Data</strong>, Ben Adcock (Simon Fraser University); Simone Brugiapaglia (Concordia University); Nick Dexter (Simon Fraser University), Sebastian Moraga (Simon Fraser University)</li>
 </ul>
-<p><a href="../slides/id39.pdf">slides</a> <a href="">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight</em></p>
+<blockquote>
+<p>Deep neural networks offer exciting prospect for computational sciences and scientific computing but their application in these areas also faces specific challenges. In particular, DNN seem well-suited to solve partial differential equations (PDEs) in high dimension, a problem for which standard numerical methods are plagued by the &ldquo;curse of dimensionality&rdquo; that renders them ineffective.  However, assessing the accuracy of the numerical solution DNN provide requires one to understand their approximation power in infinite-dimensional Hilbert spaces in which data acquisition (e.g. pointwise estimation of the solution) can only be sparse. This paper provides a new perspective on two important aspects of this problem. First, it gives explicit bounds on the error and sample complexity of a non-standard DNN training procedure aimed at learning holomorphic functions with hidden anisotropy. Second it investigates the impact of the DNN architecture on its performance for the approximate solution of parametric PDEs. These results are illustrated in practice, and provide an interesting step towards quantifying architecture and training procedure selections for DNN that achieve results competitive with best-in-class current schemes while offering theoretical guarantees in terms of approximation.</p>
+</blockquote>
+<p><a href="../slides/id39.pdf">slides</a> <a href="https://drive.google.com/file/d/1qeJ3Ri7pgsCv-uQF2-1NqVFb_U4z7Uw8/view?usp=sharing">video</a> <a href="../papers/id39.pdf">paper</a></p>
 <ul>
 <li><strong>Kernel-Based Smoothness Analysis of Residual Networks</strong>, Tom Tirer (Tel Aviv University), Joan Bruna (Courant Institute of Mathematical Sciences, NYU, USA); Raja Giryes (Tel Aviv University)</li>
 </ul>
-<p><a href="../slides/id45.pdf">slides</a> <a href="">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Aldo Glielmo</em></p>
+<blockquote>
+<p>In this work Tirer, Bruna and Giryes compute the neural tangent kernel (NTK) of ResNet architectures and prove its stability during training. They then use the computed kernel to analyse the smoothness properties of ResNets, comparing them to standard multilayer perceptrons (MLPs) architectures. To perform this analysis the authors use three different methods: a compassion of the bounds on the norms of the Jacobians of the interpolating functions, a visual comparison of the kernel functions, and a comparison of the results of kernel regressions. The authors find that ResNets architectures typically  provide smoother interpolations with respect to MLPs architectures of the same depth, and they indicate this greater smoothness as a possible factor for ResNets&rsquo; greater generalisation power. This article provides a significant contribution to the validation and advancement of the theory of NTKs and its practical usage. It is also very well written, I strongly recommend reading it!</p>
+</blockquote>
+<p><a href="../slides/id45.pdf">slides</a> <a href="https://drive.google.com/file/d/1OA2I4wshefsNekGFu4LP7U16RBXXwJRT/view?usp=sharing">video</a> <a href="../papers/id45.pdf">paper</a></p>
 <ul>
 <li><strong>Deep Autoencoders: From Understanding to Generalization Guarantees</strong>, Romain Cosentino (Rice University), Randall Balestriero (Rice University); Richard Baraniuk (Rice University); Behnaam Aazhang (Rice University)</li>
 </ul>
-<p><a href="../slides/id49.pdf">slides</a> <a href="">video</a> <a href="">paper</a></p>
+<p><em>Paper Highlight, by Michael Douglas</em></p>
+<blockquote>
+<p>This paper proposes a new regularization method for deep autoencoders which enforces a smoothness condition on the AE map. The idea is to regard the input manifold as a union of regions and the AE map as a continuous piecewise map which is affine on each region. The regularizer is a sum over pairs of nearby regions of a functional which measures the failure of the affine maps on the two regions to be related by a transformation drawn from a Lie group G of symmetries of the data submanifold, which is learned during training. The authors validate their proposal analytically and through experiments, and show significant improvements over simple autoencoders for time series datasets. As a proposal and demonstration of concept I found this work quite interesting.</p>
+</blockquote>
+<p><a href="../slides/id49.pdf">slides</a> <a href="https://drive.google.com/file/d/1FJw5eIj6CaEs8rglnJfbg4J_-v3u7enV/view?usp=sharing">video</a> <a href="../papers/id49.pdf">paper</a></p>
 </div>
     </div>
   </div>
