@@ -176,9 +176,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       
       <guid>https://msml21.github.io/session1/</guid>
       <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET, 10:20am-11:10am ET, 22:20-23:10 GMT+8  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  Paper Highlight
-  slides video paper
- Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  Paper Highlight, by Manuel Saenz
- &amp;ldquo;Although this work addresses the performance of a semi-definite program for studying non-negative principal component analysis, some of its relevance lies beyond this particular problem.</description>
+ This paper proposes a novel method for stochastic blackbox optimization using zeroth-order oracles (ZO), by using the ZO queries to estimate curvature information. The paper complements a nice theoretical analysis with compelling numerical experiments. All reviewers agreed this paper brings a very interesting contribution to the growing literature of black-box optimization.</description>
     </item>
     
     <item>
