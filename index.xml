@@ -110,7 +110,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session5/</guid>
-      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th, 10:20am-11:10am ET, 16:20-17:10 CET, 22:20-23:10 GMT+8  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  Paper Highlight, by Nadav Dym
+      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th, 10:20am-11:10am ET, 16:20-17:10 CET, 22:20-23:10 GMT+8  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  Paper Highlight, by Rachel Ward
  Consider a matrix that is composed of a linear combination of the lowest harmonic vectors of some product graph. This is a structured low-rank model, but one which arises naturally in recommender systems, where similar users tend to give similar ratings, and similar items should have similar ratings.</description>
     </item>
     
@@ -175,7 +175,8 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session1/</guid>
-      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET, 10:20am-11:10am ET, 22:20-23:10 GMT+8  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video paper
+      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET, 10:20am-11:10am ET, 22:20-23:10 GMT+8  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  Paper Highlight
+  slides video paper
  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  Paper Highlight, by Manuel Saenz
  &amp;ldquo;Although this work addresses the performance of a semi-definite program for studying non-negative principal component analysis, some of its relevance lies beyond this particular problem.</description>
     </item>
@@ -196,9 +197,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/keynote/</guid>
-      <description>Marc Mezard Professor, Director of Ecole Normale Superieure, Paris, France.
-August 16th
-Title: Statistical physics of machine learning: successes, limitations, and perspectives Abstract: In the last fifty years, statistical physics has elaborated a large corpus of concepts and methods to study probabilistic models in large dimensions. The connections to constraint satisfaction problems have also led to interesting algorithmic developments. This corpus provides a useful approach for theoretical studies of machine learning, complementary to traditional approaches in learning theory.</description>
+      <description>Marc Mezard Professor, Director of Ecole Normale Superieure, Paris, France. August 16th Title: Statistical physics of machine learning: successes, limitations, and perspectives Abstract: In the last fifty years, statistical physics has elaborated a large corpus of concepts and methods to study probabilistic models in large dimensions. The connections to constraint satisfaction problems have also led to interesting algorithmic developments. This corpus provides a useful approach for theoretical studies of machine learning, complementary to traditional approaches in learning theory.</description>
     </item>
     
     <item>
@@ -246,7 +245,7 @@ Title: Statistical physics of machine learning: successes, limitations, and pers
       <guid>https://msml21.github.io/workshops/</guid>
       <description>Computational Mathematics Organisers: Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris Date: August 17th The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.
 Current Schedule, in UTC time:
-13:00 - 13:40 Andrew Stuart 13:50 - 14:30 Sid Mishra 14:50 - 15:30 Gitta Kutyniok 15:40 - 16:20 Michael Brenner 16:30 - 17:00 Round table discussion</description>
+ 13:00 - 13:40 Andrew Stuart 13:50 - 14:30 Sid Mishra 14:50 - 15:30 Gitta Kutyniok 15:40 - 16:20 Michael Brenner 16:30 - 17:00 Round table discussion  Computational Physics Organisers Gabor Csanyi, Kyle Cranmer, Shirley Ho, Michelle Ceriotti Date: August 18th This workshop aims to explore current frontiers and challenges of Machine Learning for the physical sciences, covering a wide range of disciplines</description>
     </item>
     
   </channel>
