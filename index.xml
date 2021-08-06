@@ -47,7 +47,7 @@ MSML2021 is the second edition of a newly established conference, with emphasis 
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session8/</guid>
-      <description>Chair: Eric Vanden-Eijnden (NYU) Time: August 19th,  Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video paper
+      <description>Chair: Eric Vanden-Eijnden (NYU) Time: August 19th, 1:10pm-2pm ET, 19:10-20:00 CET, 01:10-02:00 GMT+8  Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video paper
 Paper Highlight, by Yibo Yang:
  This paper proposes an unsupervised learning method &amp;mdash;- Implicit Form Neural Networks (IFNN) using neural networks to solve partial differential equations (PDEs) whose solutions have discontinuities such as shock waves, etc.</description>
     </item>
@@ -100,7 +100,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session4/</guid>
-      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 17:10-18:00 CET  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  Paper Highlight, by Galen Reeves
+      <description>Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT) Time: August 16th, 1:10pm-2pm ET, 19:10-20:00 CET, 01:10-02:00 GMT+8  Sharp threshold for alignment of graph databases with Gaussian weights, Luca Ganassali (INRIA (Paris).  Paper Highlight, by Galen Reeves
  The problem of graph alignment is to find the correspondence between the vertices in two graphs based on matching values associated with the vertices. This paper studies the fundamental limits of a particular version of this problem where the weights are correlated Gaussian variables.</description>
     </item>
     
@@ -110,7 +110,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session5/</guid>
-      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th,  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  Paper Highlight, by Nadav Dym
+      <description>Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke) Time: August 19th, 10:20am-11:10am ET, 16:20-17:10 CET, 22:20-23:10 GMT+8  Spectral Geometric Matrix Completion, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)  Paper Highlight, by Nadav Dym
  Consider a matrix that is composed of a linear combination of the lowest harmonic vectors of some product graph. This is a structured low-rank model, but one which arises naturally in recommender systems, where similar users tend to give similar ratings, and similar items should have similar ratings.</description>
     </item>
     
@@ -129,7 +129,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session2/</guid>
-      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 17:10-18:00 CET  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  Paper Highlight, by Song Mei
+      <description>Chair: Lenaic Chizat (EPFL) Time: August 16th, 11:10am-12:00pm ET, 17:10-18:00 CET, 23:10-0:00 GMT+8  Generalization and Memorization: The Bias Potential Model, Hongkang Yang (Princeton University), Weinan E (Princeton University)  Paper Highlight, by Song Mei
  Learning probability distributions such as generative models and density estimators are among the most essential tasks in machine learning, but its mathematical foundations are not yet well-established. This paper provided a theoretical foundation for the bias potential model, which is a simple mathematical model of probability distributions.</description>
     </item>
     
@@ -139,7 +139,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session3/</guid>
-      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 17:10-18:00 CET  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  Paper Highlight, by Marylou Gabrie
+      <description>Chairs: Soledad Villar (JHU) and Teresa Huang (JHU) Time: August 16th, 12:20pm-1:10pm ET, 18:20-19:10 CET, 00:20-01:10 GMT+8  Deep Generative Learning via Euler Particle Transport, Yuan Gao (Xi&amp;rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)  Paper Highlight, by Marylou Gabrie
  This paper proposes a new method for generative modeling based on learning a composition of residual maps that move gradually a simple base distribution toward a target distribution.</description>
     </item>
     
@@ -175,7 +175,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session1/</guid>
-      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video paper
+      <description>Chair: Rachel Ward (UT Austin) Time: August 16th, 16:20-17:10 CET, 10:20am-11:10am ET, 22:20-23:10 GMT+8  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  slides video paper
  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)  Paper Highlight, by Manuel Saenz
  &amp;ldquo;Although this work addresses the performance of a semi-definite program for studying non-negative principal component analysis, some of its relevance lies beyond this particular problem.</description>
     </item>
@@ -186,7 +186,7 @@ Update: After careful analysis of the situation, we have decided to hold this ev
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session7/</guid>
-      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  Paper Highlight, by Juncai He
+      <description>Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU) Time: Aug 19th, 12:20pm-1:10pm ET, 19:10-20:00 CET, 01:10-02:00 GMT+8  Some observations on partial differential equations in Barron and multi-layer spaces, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)  Paper Highlight, by Juncai He
  Barron and tree-like spaces are considered as appropriate function spaces to study the mathematical aspects of neural networks with one or multi hidden layers. This paper presents some observations about the Barron or tree-like regularities of solutions of three prototypical PDEs (screened Poisson, heat, and viscous HJB).</description>
     </item>
     
@@ -226,7 +226,7 @@ August 19th</description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/session6/</guid>
-      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th,  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  Paper Highlight, by Antonio Celani
+      <description>Chairs: Steven Brunton (UW) and Urban Fasel (UW) Time: August 19th, 11:10am-12:00pm ET, 17:10-18:00 CET, 23:10-00:00 GMT+8  Borrowing From the Future: Addressing Double Sampling in Model-free Control, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)  Paper Highlight, by Antonio Celani
  Bellman residual minimization with stochastic gradient descent (SGD) is a stable temporal-difference method whose usefulness is limited by the need of two independent samples for the state that will be visited next, rather than just one sample.</description>
     </item>
     
@@ -245,7 +245,7 @@ August 19th</description>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
       
       <guid>https://msml21.github.io/workshops/</guid>
-      <description>Computational Mathematics Organisers: Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.
+      <description>Computational Mathematics Organisers: Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris Date: August 17th The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.
 Current Schedule, in UTC time:
 13:00 - 13:40 Andrew Stuart 13:50 - 14:30 Sid Mishra 14:50 - 15:30 Gitta Kutyniok 15:40 - 16:20 Michael Brenner 16:30 - 17:00 Round table discussion</description>
     </item>
