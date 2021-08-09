@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Conference Program - MSML21</title>
+  <title>Accepted Papers - MSML21</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/png" href="/favicon-32x32.png">
@@ -25,9 +25,9 @@
   <ul>
     
     
-    <li class="menu-item-conference program active">
+    <li class="menu-item-accepted papers active">
       <a href="/accepted/">
-        <span>Conference Program</span>
+        <span>Accepted Papers</span>
       </a>
     </li>
     
@@ -82,10 +82,10 @@
   <ul>
     
     
-    <li class="menu-item-conference program active">
+    <li class="menu-item-accepted papers active">
       <a href="/accepted/">
         
-        <span>Conference Program</span>
+        <span>Accepted Papers</span>
       </a>
 	
     </li>
@@ -153,165 +153,365 @@
 <div class="container pb-6 pt-6 pt-md-5 pb-md-5">
   <div class="row justify-content-start">
     <div class="col-14 col-md-10">
-      <h1 class="title">Conference Program</h1>
+      <h1 class="title">Accepted Papers</h1>
       <div class="content"><h2 id="a-names1a-session-1-optimization-and-algorithmssession1"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session1">Session 1: Optimization and Algorithms</a></h2>
 <h3 id="chair-rachel-ward-ut-austin">Chair: Rachel Ward (UT Austin)</h3>
 <ul>
-<li>
-<p><strong>Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries</strong>, Jingyi Zhu (Alibaba Group)</p>
-</li>
-<li>
-<p><strong>Average-Case Integrality Gap for Non-Negative Principal Component Analysis</strong>, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)</p>
-</li>
-<li>
-<p><strong>A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms</strong>, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</p>
-</li>
-<li>
-<p><strong>BEAR: Sketching BFGS Algorithm for Ultra-High Dimensional Feature Selection in Sublinear Memory</strong>, Amirali Aghazadeh (UC Berkeley), Vipul Gupta (UC Berkeley); Alex DeWeese (University of California); O. Ozan Koyluoglu (University of California, Berkeley); Ramchandran Kannan (University of California, Berkeley)</p>
-</li>
-<li>
-<p><strong>Hessian Estimation via Stein&rsquo;s Identity in Black-Box Problems</strong>, Jingyi Zhu (Alibaba Group)</p>
-</li>
-<li>
-<p><strong>Practical and Fast Momentum-Based Power Methods</strong>, Tahseen Rabbani (University of Maryland), Apollo Jain (University of California, Berkeley); Arjun Rajkumar (University of Maryland); Furong Huang (University of Maryland)</p>
-</li>
+<li><strong>Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries</strong>, Jingyi Zhu (Alibaba Group)</li>
 </ul>
+<p><em>Paper Highlight</em></p>
+<blockquote>
+<p>This paper proposes a novel method for stochastic blackbox optimization using zeroth-order oracles (ZO), by using the ZO queries to estimate curvature information. The paper complements a nice theoretical analysis with compelling numerical experiments. All reviewers agreed this paper brings a very interesting contribution to the growing literature of black-box optimization.</p>
+</blockquote>
+<p><a href="../slides/id18.pdf">slides</a> <a href="https://drive.google.com/file/d/1AcA-5CyILFXCnKW2Xe1WqsWwCRzG07YN/view?usp=sharing">video</a> <a href="../papers/id18.pdf">paper</a></p>
+<ul>
+<li><strong>Average-Case Integrality Gap for Non-Negative Principal Component Analysis</strong>, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)</li>
+</ul>
+<p><em>Paper Highlight, by Manuel Saenz</em></p>
+<blockquote>
+<p>&ldquo;Although this work addresses the performance of a semi-definite program for studying non-negative principal component analysis, some of its relevance lies beyond this particular problem. Here the authors present very clear arguments to establish the limit of the performance of the algorithm under study; and contrast this limit with a previous conjecture built upon numerical experiments. All in all, it is a cautionary tale for the interpolation from finite size simulations. It is also a good example of the complex and interesting interaction between experiments and mathematics that is currently taking place in the field of Machine Learning.</p>
+</blockquote>
+<p><a href="../slides/id20.pdf">slides</a> <a href="https://drive.google.com/file/d/1V_eRnoYlvugKYMieMX422BGh17VkeJt_/view?usp=sharing">video</a> <a href="../papers/id20.pdf">paper</a></p>
+<ul>
+<li><strong>A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms</strong>, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</li>
+</ul>
+<p><em>Paper Highlight, by Pankaj Mehta</em></p>
+<blockquote>
+<p>The paper connects the continue-time limits of adaptive gradient descent methods, RMSProp and Adam, to the sign gradient descent algorithm and explores three types of typical phenomena in these adaptive algorithms’ training processes. By analyzing the signGD flow, this paper explains the fast initial convergence of these adaptive gradient algorithms with a learning rate approximating 0 and fixed momentum parameters. The connection, the convergence analysis, and experiments on verifying the three qualitative patterns are original and technically sound.</p>
+</blockquote>
+<p><a href="../slides/id24.pdf">slides</a> <a href="https://drive.google.com/file/d/1MwkTNC3KgprjC-46xQS1yw2Pqe5ORhFG/view?usp=sharing">video</a> <a href="../papers/id24.pdf">paper</a></p>
+<ul>
+<li><strong>BEAR: Sketching BFGS Algorithm for Ultra-High Dimensional Feature Selection in Sublinear Memory</strong>, Amirali Aghazadeh (UC Berkeley), Vipul Gupta (UC Berkeley); Alex DeWeese (University of California); O. Ozan Koyluoglu (University of California, Berkeley); Ramchandran Kannan (University of California, Berkeley)</li>
+</ul>
+<p><em>Paper Highlight, by Michele Ceriotti</em></p>
+<blockquote>
+<p>As datasets grow in size, and featurizations grow in complexity, the sheer size of the design matrix limits the applicability of several machine-learning algorithms, including those to select the most relevant and informative features. The authors propose an algorithm to achieve second-order feature selection with a sub-linear memory footprint, by combining the BFGS quasi-Newton method with a Count Sketch storage of the approximate Hessian. They demonstrate dramatic improvements in both memory occupation and classification performance in comparison with first-order methods, making the treatment of very large datasets feasible on commodity hardware.</p>
+</blockquote>
+<p><a href="../slides/id26.pdf">slides</a> <a href="https://drive.google.com/file/d/1BzseCDh8AzGFYo34vR8TUbD0_2YS1vAM/view?usp=sharing">video</a> <a href="../papers/id26.pdf">paper</a></p>
+<ul>
+<li><strong>Hessian Estimation via Stein&rsquo;s Identity in Black-Box Problems</strong>, Jingyi Zhu (Alibaba Group)</li>
+</ul>
+<p><em>Paper Highlight, by Alec Koppel</em></p>
+<blockquote>
+<p>This work puts forth a new Hessian estimation scheme for stochastic optimization problems when only a zero-th order oracle is available, i.e., the functional form of the objective is unavailable but one may acquire noisy function calls. Rather than construct a Hessian estimate based upon finite differencing (SPSA), which requires four zero-th order calls, the key insight of this work is to employ Stein&rsquo;s identity for reducing the number of zero-th order calls. The asymptotic almost sure convergence of an approximate Newton method based upon this scheme is established, as well as its finite-time convergence rate, which alleviates some of the smoothness conditions required for related approaches. Moreover, the asymptotic characterization of the limiting covariance of the resulting parameter estimates is very interesting. Experimental results illustrate the merits of this approach in practice.</p>
+</blockquote>
+<p><a href="../slides/id61.pdf">slides</a> <a href="https://drive.google.com/file/d/1ar_iAphvfdAgxRaoB_8amZuyl62Y22AY/view?usp=sharing">video</a> <a href="../papers/id61.pdf">paper</a></p>
+<ul>
+<li><strong>Practical and Fast Momentum-Based Power Methods</strong>, Tahseen Rabbani (University of Maryland), Apollo Jain (University of California, Berkeley); Arjun Rajkumar (University of Maryland); Furong Huang (University of Maryland)</li>
+</ul>
+<p><em>Paper Highlight, by Elizabeth Newman</em></p>
+<blockquote>
+<p>This paper proposes a delayed momentum power method (DMPower) and a delayed momentum streaming method (DMStream).  Both rely on a pre-momentum phase to approximate the second largest eigenvalue which is then used in a power method with momentum to approximate the dominant eigenvalue and top eigenvector.  The paper includes rigorous theoretical guarantees for the speed of convergence for each algorithm which notably does not rely on a priori knowledge of the second largest eigenvalue.  These practical and fast algorithms are of great interest to the machine learning community for applications that use, e.g., spectral clustering or principal component analysis.</p>
+</blockquote>
+<p><a href="../slides/id65.pdf">slides</a> <a href="https://drive.google.com/file/d/1uuLSM8RKxmvh8Y2nrjyQxL596bahs58r/view?usp=sharing">video</a> <a href="../papers/id65.pdf">paper</a></p>
 <h2 id="a-names2a-session-2-learning-foundations-isession2"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session2">Session 2: Learning Foundations I</a></h2>
 <h3 id="chair-lenaic-chizat-epfl">Chair: Lenaic Chizat (EPFL)</h3>
 <ul>
-<li>
-<p><strong>Generalization and Memorization: The Bias Potential Model</strong>, Hongkang Yang (Princeton University), Weinan E (Princeton University)</p>
-</li>
-<li>
-<p><strong>Orientation-Preserving Vectorized Distance Between Curves</strong>, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)</p>
-</li>
-<li>
-<p><strong>Solvable Model for Inheriting the Regularization through Knowledge Distillation</strong>, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)</p>
-</li>
-<li>
-<p><strong>Dynamic Algorithms for Online Multiple Testing</strong>, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)</p>
-</li>
-<li>
-<p><strong>Analyzing Finite Neural Networks: Can We Trust Neural Tangent Kernel Theory?</strong>, Mariia Seleznova (Ludwig Maximilian University of Munich), Gitta Kutyniok (Ludwig Maximilian University of Munich)</p>
-</li>
+<li><strong>Generalization and Memorization: The Bias Potential Model</strong>, Hongkang Yang (Princeton University), Weinan E (Princeton University)</li>
 </ul>
+<p><em>Paper Highlight, by Song Mei</em></p>
+<blockquote>
+<p>Learning probability distributions such as generative models and density estimators are among the most essential tasks in machine learning, but its mathematical foundations are not yet well-established. This paper provided a theoretical foundation for the bias potential model, which is a simple mathematical model of probability distributions. Here, the potential function is modeled using one hidden layer neural networks. Two remarkable contributions of this paper are: 1. It established approximation, generalization, and optimization efficiency results under certain mild assumptions of the target distribution, generalizing the theories of learning functions to learning distributions. 2. It was shown that, although the model will diverge or memorize the samples in the long term, early stopping can be adopted to achieve good generalization.</p>
+</blockquote>
+<p><a href="../slides/id4.pdf">slides</a> <a href="https://drive.google.com/file/d/1Fbe1M-VpFt8Y2hy59JdNiu5DgyI0WnpK/view?usp=sharing">video</a> <a href="../papers/id4.pdf">paper</a></p>
+<ul>
+<li><strong>Orientation-Preserving Vectorized Distance Between Curves</strong>, Hasan Pourmahmoodaghababa (University of Utah), Jeff Phillips (University of Utah)</li>
+</ul>
+<p><em>Paper Highlight, by Xiuyuan Chen</em></p>
+<blockquote>
+<p>The paper introduces a new distance for continuous curves which is orientation-preserving and provides an alternative to Frechet distance and Dynamic Time Warping distance. The method is based on landmarks, and specifically, by computing feature vectors at a set of points in the ambient space and measuring their relationship (distance and direction) to the directed curves. The work is a generalization of earlier ideas on curve distance by taking into account curve orientation. The new curve distance is realizable in a lifted Euclidean space and thus can be efficiently computed. Theoretically, the paper proves the stability of the obtained distance to perturbation of landmarks, as well as its relationship to Hausdorff and Frechet distances. Algorithm-wise, the new distance is computationally less expensive than existing methods and allows faster implementation for nearest neighbor classification. Empirically, the new approach shows a significant advantage on a synthetic dataset. The work provides a promising tool for machine learning applications based on curve distances, such as shape analysis.</p>
+</blockquote>
+<p><a href="../slides/id5.pdf">slides</a> <a href="https://drive.google.com/file/d/1v-MuB6YkgbAq-on_u3ePigKMp4vqlhlK/view?usp=sharing">video</a> <a href="../papers/id5.pdf">paper</a></p>
+<ul>
+<li><strong>Solvable Model for Inheriting the Regularization through Knowledge Distillation</strong>, Luca Saglietti (EPFL), Lenka Zdeborova (EPFL)</li>
+</ul>
+<p><em>Paper Highlight, by Grant Rotskoff</em></p>
+<blockquote>
+<p>This paper of Saglietti and Zdeborová introduces an analytically tractable model of knowledge distillation (KD), a type of transfer learning in which a complex model is used as the teacher network for a student network with reduced complexity. The authors develop a framework to evaluate performance in the distilled model which resembles calculations that arise in statistical mechanics: the weights of the teacher play the role of a quenched disorder and the typical behavior of the student can be accessed by analyzing the Gibbs measure associated with the KD loss function in the low temperature limit. The results show, in the context of a tractable Gaussian mixture model, that regularization is transferred in the learning process. Furthermore, the authors explain how the generalization properties of the teacher for the student. The paper also features a very detailed and well-explained replica calculation!</p>
+</blockquote>
+<p><a href="../slides/id9.pdf">slides</a> <a href="https://drive.google.com/file/d/1AJebIYMzR9uH5JjwZER0QMxYq-KL8P-Y/view?usp=sharing">video</a> <a href="../papers/id9.pdf">paper</a></p>
+<ul>
+<li><strong>Dynamic Algorithms for Online Multiple Testing</strong>, Ziyu Xu (Carnegie Mellon University), Aaditya Ramdas (Carnegie Mellon University)</li>
+</ul>
+<p><em>Paper Highlight, by Can Yang</em></p>
+<blockquote>
+<p>The authors introduced the method SupLORD for online multiple testing, aiming to control false discovery exceedance (FDX) and improve statistical power. The manuscript was well organized with a very clear logic flow. The authors first provided a comprehensive introduction to the topic of online multiple testing, and then they highlighted the three major contributions of SupLORD: delayed FDX control, dynamic scheduling, and theoretical improvements in FDR control. Accordingly, the authors showed how SupLORD achieved the three major contributions through derivation of the boost sequence, formulation of dynamic scheduling, and theoretical analysis on the control of FDR. Using simulation studies, the authors demonstrated the advantages of SupLORD over other related methods. It is highly anticipated that SupLORD can be used in real applications of online multiple testing.</p>
+</blockquote>
+<p><a href="../slides/id10.pdf">slides</a> <a href="https://drive.google.com/file/d/1daxIs4AmGRm_ogCoRVzPbuadxUTTpmCF/view?usp=sharing">video</a> <a href="../papers/id10.pdf">paper</a></p>
+<ul>
+<li><strong>Analyzing Finite Neural Networks: Can We Trust Neural Tangent Kernel Theory?</strong>, Mariia Seleznova (Ludwig Maximilian University of Munich), Gitta Kutyniok (Ludwig Maximilian University of Munich)</li>
+</ul>
+<p><em>Paper Highlight, by Clement Hongler</em></p>
+<blockquote>
+<p>This paper investigates from a numerical viewpoint how the initialization and the training of finite-size neural networks differs from the behavior of infinite-width neural networks in the so-called NTK regime. This paper discusses this question simply and quite systematically, with a large number of experiments for various widths, depths, initialization variance values, nonlinearity choices; one observes the NTK variance at initialization, its evolution during training, as well as the loss at the end of training; the results are compared with theoretical NTK predictions which are derived in the article, in particular the so-called edge of chaos transition. This article is very easy to read, and it effectively conveys, for many simple cases, a picture of when the NTK approximation holds or when it doesn&rsquo;t, making it a desirable addition to the literature.</p>
+</blockquote>
+<p><a href="../slides/id44.pdf">slides</a> <a href="https://drive.google.com/file/d/1POZFrmhVzIyHj4vSN19dMIdIcci52D6F/view?usp=sharing">video</a> <a href="../papers/id44.pdf">paper</a></p>
 <h2 id="a-names3a-session-3-learning-foundations-iisession3"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session3">Session 3: Learning Foundations II</a></h2>
 <h3 id="chairs-soledad-villar-jhu-and-teresa-huang-jhu">Chairs: Soledad Villar (JHU) and Teresa Huang (JHU)</h3>
 <ul>
-<li>
-<p><strong>Deep Generative Learning via Euler Particle Transport</strong>, Yuan Gao (Xi&rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)</p>
-</li>
-<li>
-<p><strong>Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients</strong>, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)</p>
-</li>
-<li>
-<p><strong>On the emergence of tetrahedral symmetry in the final and penultimate layers of neural network classifiers</strong>, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)</p>
-</li>
-<li>
-<p><strong>Deep Neural Networks Are Effective At Learning High-Dimensional Hilbert-Valued Functions From Limited Data</strong>, Ben Adcock (Simon Fraser University); Simone Brugiapaglia (Concordia University); Nick Dexter (Simon Fraser University), Sebastian Moraga (Simon Fraser University)</p>
-</li>
-<li>
-<p><strong>Kernel-Based Smoothness Analysis of Residual Networks</strong>, Tom Tirer (Tel Aviv University), Joan Bruna (Courant Institute of Mathematical Sciences, NYU, USA); Raja Giryes (Tel Aviv University)</p>
-</li>
-<li>
-<p><strong>Deep Autoencoders: From Understanding to Generalization Guarantees</strong>, Romain Cosentino (Rice University), Randall Balestriero (Rice University); Richard Baraniuk (Rice University); Behnaam Aazhang (Rice University)</p>
-</li>
+<li><strong>Deep Generative Learning via Euler Particle Transport</strong>, Yuan Gao (Xi&rsquo;an Jiaotong University); Jian Huang (University of Iowa), Yuling Jiao (School of Statistics and Mathematics of Zhongnan University of Economics and Law); Jin Liu (Duke-NUS Medical School); Xiliang Lu (Wuhan University); Zhijian Yang (Wuhan University)</li>
 </ul>
+<p><em>Paper Highlight, by Marylou Gabrie</em></p>
+<blockquote>
+<p>This paper proposes a new method for generative modeling based on learning a composition of residual maps that move gradually a simple base distribution toward a target distribution. This approach is nicely inspired by an optimal transport problem and proven useful in practice. A remarkable component of the paper is also the authors’ effort to control theoretically the sources of error in the implementation of the algorithm.</p>
+</blockquote>
+<p><a href="../slides/id8.pdf">slides</a> <a href="https://drive.google.com/file/d/1daxIs4AmGRm_ogCoRVzPbuadxUTTpmCF/view?usp=sharing">video</a> <a href="../papers/id8.pdf">paper</a></p>
+<ul>
+<li><strong>Adversarial Robustness of Stabilized Neural ODE Might be from Obfuscated Gradients</strong>, Yifei Huang (Hong Kong University of Science and Technology), Yaodong Yu (UC Berkeley), Hongyang Zhang (TTIC), Yi Ma (UC Berkeley), Yuan Yao (HongKong University of Science and Technology)</li>
+</ul>
+<p><em>Paper Highlight, by Lei Wu</em></p>
+<blockquote>
+<p>This paper shows that the adversarial robustness of neural ODEs observed in previous works comes from the gradient masking, which is caused by the numerical discretization of the ODEs. As a result, the models based on neural ODEs are robust against gradient-based attacks (e.g. PGD) but vulnerable to gradient-free attacks, such as SPSA.</p>
+</blockquote>
+<p><a href="../slides/id11.pdf">slides</a> <a href="https://drive.google.com/file/d/13wk2DmN8vxmDTXbVJDMjK9DBGa0x-z32/view?usp=sharing">video</a> <a href="../papers/id11.pdf">paper</a></p>
+<ul>
+<li><strong>On the emergence of tetrahedral symmetry in the final and penultimate layers of neural network classifiers</strong>, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)</li>
+</ul>
+<p><em>Paper Highlight, by Zhengdao Chen</em></p>
+<blockquote>
+<p>This paper presents nice theoretical analyses of the &ldquo;Neural Collapse&rdquo; phenomenon described in Papyan et al. (2020). The main results are two-fold: 1) When the hypothesis class is rich enough and we consider the minimizer of the loss function under a norm constraint, then the outputs of the final or penultimate layers are proved to collapse to single points with a tetrahedral configuration; 2) The authors show that the collapse is not guaranteed to happen for two-layer neural networks trained by gradient flow in two concrete examples, by exploiting the convergence to max-margin solutions and by considering input classes that are not convex.</p>
+</blockquote>
+<p><a href="../slides/id34.pdf">slides</a> <a href="https://drive.google.com/file/d/1zRDsy7UJrj-Ry-Hb_Ooetk82CBhpAJZa/view?usp=sharing">video</a> <a href="../papers/id34.pdf">paper</a></p>
+<ul>
+<li><strong>Deep Neural Networks Are Effective At Learning High-Dimensional Hilbert-Valued Functions From Limited Data</strong>, Ben Adcock (Simon Fraser University); Simone Brugiapaglia (Concordia University); Nick Dexter (Simon Fraser University), Sebastian Moraga (Simon Fraser University)</li>
+</ul>
+<p><em>Paper Highlight, by Eric Vanden-Eijnden</em></p>
+<blockquote>
+<p>Deep neural networks offer exciting prospect for computational sciences and scientific computing but their application in these areas also faces specific challenges. In particular, DNN seem well-suited to solve partial differential equations (PDEs) in high dimension, a problem for which standard numerical methods are plagued by the &ldquo;curse of dimensionality&rdquo; that renders them ineffective.  However, assessing the accuracy of the numerical solution DNN provide requires one to understand their approximation power in infinite-dimensional Hilbert spaces in which data acquisition (e.g. pointwise estimation of the solution) can only be sparse. This paper provides a new perspective on two important aspects of this problem. First, it gives explicit bounds on the error and sample complexity of a non-standard DNN training procedure aimed at learning holomorphic functions with hidden anisotropy. Second it investigates the impact of the DNN architecture on its performance for the approximate solution of parametric PDEs. These results are illustrated in practice, and provide an interesting step towards quantifying architecture and training procedure selections for DNN that achieve results competitive with best-in-class current schemes while offering theoretical guarantees in terms of approximation.</p>
+</blockquote>
+<p><a href="../slides/id39.pdf">slides</a> <a href="https://drive.google.com/file/d/1qeJ3Ri7pgsCv-uQF2-1NqVFb_U4z7Uw8/view?usp=sharing">video</a> <a href="../papers/id39.pdf">paper</a></p>
+<ul>
+<li><strong>Kernel-Based Smoothness Analysis of Residual Networks</strong>, Tom Tirer (Tel Aviv University), Joan Bruna (Courant Institute of Mathematical Sciences, NYU, USA); Raja Giryes (Tel Aviv University)</li>
+</ul>
+<p><em>Paper Highlight, by Aldo Glielmo</em></p>
+<blockquote>
+<p>In this work Tirer, Bruna and Giryes compute the neural tangent kernel (NTK) of ResNet architectures and prove its stability during training. They then use the computed kernel to analyse the smoothness properties of ResNets, comparing them to standard multilayer perceptrons (MLPs) architectures. To perform this analysis the authors use three different methods: a compassion of the bounds on the norms of the Jacobians of the interpolating functions, a visual comparison of the kernel functions, and a comparison of the results of kernel regressions. The authors find that ResNets architectures typically  provide smoother interpolations with respect to MLPs architectures of the same depth, and they indicate this greater smoothness as a possible factor for ResNets&rsquo; greater generalisation power. This article provides a significant contribution to the validation and advancement of the theory of NTKs and its practical usage. It is also very well written, I strongly recommend reading it!</p>
+</blockquote>
+<p><a href="../slides/id45.pdf">slides</a> <a href="https://drive.google.com/file/d/1OA2I4wshefsNekGFu4LP7U16RBXXwJRT/view?usp=sharing">video</a> <a href="../papers/id45.pdf">paper</a></p>
+<ul>
+<li><strong>Deep Autoencoders: From Understanding to Generalization Guarantees</strong>, Romain Cosentino (Rice University), Randall Balestriero (Rice University); Richard Baraniuk (Rice University); Behnaam Aazhang (Rice University)</li>
+</ul>
+<p><em>Paper Highlight, by Michael Douglas</em></p>
+<blockquote>
+<p>This paper proposes a new regularization method for deep autoencoders which enforces a smoothness condition on the AE map. The idea is to regard the input manifold as a union of regions and the AE map as a continuous piecewise map which is affine on each region. The regularizer is a sum over pairs of nearby regions of a functional which measures the failure of the affine maps on the two regions to be related by a transformation drawn from a Lie group G of symmetries of the data submanifold, which is learned during training. The authors validate their proposal analytically and through experiments, and show significant improvements over simple autoencoders for time series datasets. As a proposal and demonstration of concept I found this work quite interesting.</p>
+</blockquote>
+<p><a href="../slides/id49.pdf">slides</a> <a href="https://drive.google.com/file/d/1FJw5eIj6CaEs8rglnJfbg4J_-v3u7enV/view?usp=sharing">video</a> <a href="../papers/id49.pdf">paper</a></p>
 <h2 id="a-names4a-session-4-high-dimensional-statisticssession4"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session4">Session 4: High-dimensional Statistics</a></h2>
 <h3 id="chairs-marylou-gabrie-nyu-flatiron-institute-and-ilias-zadik-nyumit">Chairs: Marylou Gabrie (NYU-Flatiron Institute) and Ilias Zadik (NYU/MIT)</h3>
 <ul>
-<li>
-<p><strong>Sharp threshold for alignment of graph databases with Gaussian weights</strong>, Luca Ganassali (INRIA (Paris).</p>
-</li>
-<li>
-<p><strong>Construction of optimal spectral methods in phase retrieval</strong>, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)</p>
-</li>
-<li>
-<p><strong>Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers</strong>, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)</p>
-</li>
-<li>
-<p><strong>Certifying Robustness of Graph Laplacian-Based Semi-Supervised Learning</strong>, Matthew Thorpe (University of Manchester); Bao Wang (University of Utah)</p>
-</li>
-<li>
-<p><strong>The Gaussian equivalence of generative models for learning with shallow neural networks</strong>, Sebastian Goldt (International School for Advanced Studies (SISSA)), Bruno Loureiro (EPFL); Galen Reeves (Duke); Florent Krzakala (École Polytechnique Fédérale de Lausanne); Marc Mezard (ENS); Lenka Zdeborova (EPFL)</p>
-</li>
+<li><strong>Sharp threshold for alignment of graph databases with Gaussian weights</strong>, Luca Ganassali (INRIA (Paris).</li>
 </ul>
+<p><em>Paper Highlight, by Galen Reeves</em></p>
+<blockquote>
+<p>The problem of graph alignment is to find the correspondence between the vertices in two graphs based on matching values associated with the vertices. This paper studies the fundamental limits of a particular version of this problem where the weights are correlated Gaussian variables. Recent work by Wu, Xu, and Yu, proves a sharp threshold (in terms of the number of vertices and the degree of correlation) for the problem of detecting whether a correspondence exists. The main contribution of this paper is to show that that same threshold also delineates between achievability and impossibility for the problem of exactly recovering the underlying correspondence. On the theoretical side, there has been lots of interest in pinning down exact thresholds for detection and recovery in high-dimensional inference problems and this paper fits in nicely with this line of work. A particular strength of this paper is the results are sharp and the proofs are clearly described.</p>
+</blockquote>
+<p><a href="../slides/id3.pdf">slides</a> <a href="https://drive.google.com/file/d/1-Xvu82wsM8FZd2NJZSgSVdjIKBVHzIFH/view?usp=sharing">video</a> <a href="../papers/id3.pdf">paper</a></p>
+<ul>
+<li><strong>Construction of optimal spectral methods in phase retrieval</strong>, Antoine Maillard (Ecole Normale Supérieure), Yue Lu (Harvard University, USA); Lenka Zdeborova (EPFL); Florent Krzakala (École Polytechnique Fédérale de Lausanne)</li>
+</ul>
+<p><em>Paper Highlight, by Gabor Csanyi</em></p>
+<blockquote>
+<p>In the last years, analytical tools from the physics of disordered systems have been shown to be very effective in precisely characterizing asymptotic thresholds and behaviors in inference and learning settings, and in deriving message passing schemes saturating algorithmic optimality. A paradigmatic example is the phase retrieval problem, where approximate message passing achieves perfect recovery of the signal down to sampling rates very close to the information theoretic threshold, as recently (and rigorously!) showed by some of the authors.
+Quite surprisingly, in this nice paper, it is demonstrated that those very same tools can be used to investigate a seemingly unrelated family of spectral methods for phase retrieval, typically used as warm-start initialization in gradient-based approaches. The optimal spectral method is constructively obtained using two different approaches (Bethe hessian and BP linearization). Their non-trivial relationship is carefully discussed.
+A related analysis was carried out in the past for the community detection problem: it is nice to see how those analytical tools evolved and adapted to different settings, that many analogies persist but some surprising behaviors are found (I&rsquo;m talking to you, top eigenvalue of linearized BP!), that the capacity to deal with  the large family of rotationally invariant ensembles (instead of Gaussian i.i.d. matrices) is now part of our skillset. Another result, one with a good taste to it, is the fact that weak recovery is already achieved at the algorithmic threshold by the optimal method in this simple spectral family.
+This paper is a great read for a dive intersecting disciplines, sapiently combining many years of accumulated progress and bringing us a further step ahead.</p>
+</blockquote>
+<p><a href="../slides/id12.pdf">slides</a> <a href="https://drive.google.com/file/d/1N6eyTxKHtCv_udSOkXvndMqPCmQB4dyG/view?usp=sharing">video</a> <a href="../papers/id12.pdf">paper</a></p>
+<ul>
+<li><strong>Reduced Order Modeling using Shallow ReLU Networks with Grassmann Layers</strong>, Hayden Schaeffer (Carnegie Mellon University ), Kayla Bollinger (Carnegie Mellon University)</li>
+</ul>
+<p><em>Paper Highlight, by Ben Peherstorfer</em></p>
+<blockquote>
+<p>This work proposes an innovative model reduction approach that learns a reduced approximation of the inputs together with a surrogate map from the reduced inputs to outputs. This is in contrast to classical model reduction methods that first construct a reduced space and then learn a surrogate model in a second, separate step. The reviewers highlighted that the proposed surrogate model achieves high expressiveness even with only few network parameters that can be trained with few data points, which makes the proposed approach very suitable for science and engineering applications with scarce data. The reviewers also especially liked the clear formulation of the proposed surrogate model as a neural network where the first layer is confined to be on the Grassmann manifold so that it corresponds to a projection of the inputs, which leads to efficient training methods for the non-convex learning problem.</p>
+</blockquote>
+<p><a href="../slides/id21.pdf">slides</a> <a href="https://drive.google.com/file/d/1s6U7bPq2lNBDVmcVZ2Llki_bNEBOfRez/view?usp=sharing">video</a> <a href="../papers/id21.pdf">paper</a></p>
+<ul>
+<li><strong>Certifying Robustness of Graph Laplacian-Based Semi-Supervised Learning</strong>, Matthew Thorpe (University of Manchester); Bao Wang (University of Utah)</li>
+</ul>
+<p><em>Paper Highlight, by Sebastian Goldt</em></p>
+<blockquote>
+<p>This paper considers the problem of adversarial robustness for Graph Laplacian (GL) based learning. It focuses on the semi-supervised setting, where only some of the graph nodes are labeled, and provides a bound on how the classification estimate is affected if an adversary replaces the clean dataset with another, corrupted dataset of the same size. I liked the mix of rigorous results - the authors bound on the difference in the classification error before and after the attack - and the empirical comparison to other algorithms, in this case k-nearest neighbour methods, and I hope to see more work on adversarial robustness in this context in the future!</p>
+</blockquote>
+<p><a href="../slides/id25.pdf">slides</a> <a href="https://drive.google.com/file/d/1HAfX8lg6c2e4cQW1RbJxz_xneANNMHEl/view?usp=sharing">video</a> <a href="../papers/id25.pdf">paper</a></p>
+<ul>
+<li><strong>The Gaussian equivalence of generative models for learning with shallow neural networks</strong>, Sebastian Goldt (International School for Advanced Studies (SISSA)), Bruno Loureiro (EPFL); Galen Reeves (Duke); Florent Krzakala (École Polytechnique Fédérale de Lausanne); Marc Mezard (ENS); Lenka Zdeborova (EPFL)</li>
+</ul>
+<p><a href="../slides/id50.pdf">slides</a> <a href="https://drive.google.com/file/d/1V5MwT9RLCFWhNAfxZtX_G_XxThpWHYdS/view?usp=sharing">video</a> <a href="../papers/id50.pdf">paper</a></p>
 <h2 id="a-names5a-session-5-inverse-problemssession5"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session5">Session 5: Inverse Problems</a></h2>
 <h3 id="chairs-xiuyuan-cheng-duke-and-yimin-zhong-duke">Chairs: Xiuyuan Cheng (Duke) and Yimin Zhong (Duke)</h3>
 <ul>
-<li>
-<p><strong>Spectral Geometric Matrix Completion</strong>, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)</p>
-</li>
-<li>
-<p><strong>Solving Bayesian Inverse Problems via Variational Autoencoders</strong>, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)</p>
-</li>
-<li>
-<p><strong>Interpretable and Learnable Super-Resolution Time-Frequency Representation</strong>, Randall Balestriero (Rice University), Herve Glotin (); Richard Baraniuk (Rice University)</p>
-</li>
-<li>
-<p><strong>Phase Retrieval with Holography and Untrained Priors: Tackling the Challenges of Low-Photon Nanoscale Imaging</strong>, Hannah Lawrence (Flatiron Institute); David Barmherzig (); Henry Li (Yale); Michael Eickenberg (UC Berkeley); Marylou Gabrié (NYU / Flatiron Institute)</p>
-</li>
-<li>
-<p><strong>Multilevel Stein variational gradient descent with applications to Bayesian inverse problems</strong>, Terrence Alsup (New York University), Luca Venturi (Courant Institute of Mathematical Sciences); Benjamin Peherstorfer (Courant Institute of Mathematical Sciences),</p>
-</li>
+<li><strong>Spectral Geometric Matrix Completion</strong>, Amit Boyarski (Technion); Sanketh Vedula (Technion), Alex Bronstein (Technion)</li>
 </ul>
+<p><em>Paper Highlight, by Rachel Ward</em></p>
+<blockquote>
+<p>Consider a matrix that is composed of a linear combination of the lowest harmonic vectors of some product graph.  This is a structured low-rank model, but one which arises naturally in recommender systems, where similar users tend to give similar ratings, and similar items should have similar ratings.  This paper proposes a novel approach to matrix completion, within this model framework: (1) Explicit spectral regularization via the Dirichlet energy, and (2) multi-resolution of the spectral loss.   The multiresolution of the spectral loss is motivated by applications arising in shape correspondence.  The approach can also be viewed as a generalization of a recent matrix completion method called deep matrix factorization inspired by overparameterized neural networks.  Empirical results show that the above approach achieves state-of-art performance compared to other recent methods, particularly in the setting of data scarcity, where the number of measurements is small compared to the target rank of the matrix.  This work is a significant contribution to matrix completion, in the form of introducing a simple geometric model and optimization method which is natural for recommender systems and which can practically outperform overparameterized deep nonlinear networks.</p>
+</blockquote>
+<p><a href="../slides/id7.pdf">slides</a> <a href="https://drive.google.com/file/d/1VcUNxqFEiQLtL8tSLOQeIYzPQlTVEQaJ/view?usp=sharing">video</a> <a href="../papers/id7.pdf">paper</a></p>
+<ul>
+<li><strong>Solving Bayesian Inverse Problems via Variational Autoencoders</strong>, Hwan Goh (Oden Institute of Computational Sciences and Engineering), Sheroze Sheriffdeen (Oden Institute); Jonathan Wittmer (Oden Institute of Computational Sciences and Engineering); Tan Bui-Thanh (Oden Institute of Computational Sciences and Engineering)</li>
+</ul>
+<p><em>Paper Highlight, by Chiara Cammarota</em></p>
+<blockquote>
+<p>Generally the power of machine learning develops in two main directions: discriminative modeling aims to learn a predictor given the observations, in generative modelling the more general problem of correctly sampling new real-like observations from the entire joint distribution and simulating real-world data generation processes is attacked. Variational Autoencoders (VAE) represent one of the most successful realizations of the second challenge. In &ldquo;Solving Bayesian Inverse Problems via Variational Autoencoders&rdquo; the authors propose an interesting perspective shift on VEAs by re-adapting them to a full-fledged modelling reconstruction with application to uncertainty quantification in scientific inverse problems. Uncertainty quantification variational autoencoder (UQ-VAE) results as a flexible modelling framework which takes full advantage, already during the training procedure, both from data and model structure inputs. To show its efficacy and robustness, the implementation of the UQ-VAE framework is proposed in a simple setting to the two dimensional steady state heat conduction problem and the results are compared with those obtained within the Laplace Approximation.</p>
+</blockquote>
+<p><a href="../slides/id30.pdf">slides</a> <a href="https://drive.google.com/file/d/12_cTY05jZLBMYp_SZHJCRk6syG0W2be7/view?usp=sharing">video</a> <a href="../papers/id30.pdf">paper</a></p>
+<ul>
+<li><strong>Interpretable and Learnable Super-Resolution Time-Frequency Representation</strong>, Randall Balestriero (Rice University), Herve Glotin (); Richard Baraniuk (Rice University)</li>
+</ul>
+<p><em>Paper Highlight, by Dennis Elbrachter</em></p>
+<blockquote>
+<p>The paper introduces a method of obtaining super-resolved quadratic time-frequency representations via Gaussian filtering of the Wigner-Ville transform. It is both interpretable as well as computationally feasible, achieving state-of-the-art results on various datasets. I particularly enjoyed the clean presentation of formal results augmented by helpful explanations of the intuitions behind them.</p>
+</blockquote>
+<p><a href="../slides/id38.pdf">slides</a> <a href="https://drive.google.com/file/d/1v2gPesxtf6Xe5Po29YS12hiFm8CkPvOH/view?usp=sharing">video</a> <a href="../papers/id38.pdf">paper</a></p>
+<ul>
+<li><strong>Phase Retrieval with Holography and Untrained Priors: Tackling the Challenges of Low-Photon Nanoscale Imaging</strong>, Hannah Lawrence (Flatiron Institute); David Barmherzig (); Henry Li (Yale); Michael Eickenberg (UC Berkeley); Marylou Gabrié (NYU / Flatiron Institute)</li>
+</ul>
+<p><em>Paper Highlight, by Reinhard Heckel</em></p>
+<blockquote>
+<p>The paper introduces a novel dataset-free deep learning framework for holographic phase retrieval. It shows, in a realistic simulation setups, that un-trained neural network enable to regularize holographic phase retrieval. It thus shows that non-linear inverse problems can be regularized with neural networks without any training, thereby making an important contribution in the intersection of machine learning and inverse problems.</p>
+</blockquote>
+<p><a href="../slides/id46.pdf">slides</a> <a href="https://drive.google.com/file/d/1_eiJNQYVw2J8oy8A7Pz_sgSXjbBhnkLV/view?usp=sharing">video</a> <a href="../papers/id46.pdf">paper</a></p>
+<ul>
+<li><strong>Multilevel Stein variational gradient descent with applications to Bayesian inverse problems</strong>, Terrence Alsup (New York University), Luca Venturi (Courant Institute of Mathematical Sciences); Benjamin Peherstorfer (Courant Institute of Mathematical Sciences),</li>
+</ul>
+<p><em>Paper Highlight, by Joan Bruna</em></p>
+<blockquote>
+<p>This paper presents a multilevel variant of Stein variational gradient descent, a canonical method to sample from a target distribution. The key idea of the method developed by Alstrup, Venturi and Peherstorfer is to obtain a sequence of increasingly complex measures converging to the true target distribution, and then using the previous levels as preconditioners for sampling the next one. The authors provide a nice theoretical analysis, establishing advantages of the multiscale method over the standard one, complemented with extensive numerical experiments on realistic scenarios, demonstrating speedups up to an order of magnitude.</p>
+</blockquote>
+<p><a href="../slides/id52.pdf">slides</a> <a href="https://drive.google.com/file/d/1FBhBd-ewWhBY0pYK0GQtuV_-0JWarJGw/view?usp=sharing">video</a> <a href="../papers/id52.pdf">paper</a></p>
 <h2 id="a-names6a-session-6-reinforcement-learning-and-controlsession6"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session6">Session 6: Reinforcement Learning and Control</a></h2>
 <h3 id="chairs-steven-brunton-uw-and-urban-fasel-uw">Chairs: Steven Brunton (UW) and Urban Fasel (UW)</h3>
 <ul>
-<li>
-<p><strong>Borrowing From the Future: Addressing Double Sampling in Model-free Control</strong>, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)</p>
-</li>
-<li>
-<p><strong>Ground States of Quantum Many Body Lattice Models via Reinforcement Learning</strong>, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)</p>
-</li>
-<li>
-<p><strong>Decentralized Multi-Agents by Imitation of a Centralized Controller</strong>, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)</p>
-</li>
-<li>
-<p><strong>Noise-Robust End-to-End Quantum Control using Deep Autoregressive Policy Networks</strong>, Jiahao Yao (University of California, Berkeley), Paul Köttering (University of California, Berkeley); Hans Gundlach (University of California, Berkeley); Lin Lin (University of California, Berkeley); Marin Bukov (University of California, Berkeley)</p>
-</li>
-<li>
-<p><strong>Temporal-difference learning with nonlinear function approximation: lazy training and mean field regimes</strong>, Andrea Agazzi (Duke University), Jianfeng Lu (Duke University)</p>
-</li>
+<li><strong>Borrowing From the Future: Addressing Double Sampling in Model-free Control</strong>, Yuhua Zhu (Stanford University), Zachary Izzo (Stanford); Lexing Ying (Stanford University)</li>
 </ul>
+<p><em>Paper Highlight, by Antonio Celani</em></p>
+<blockquote>
+<p>Bellman residual minimization with stochastic gradient descent (SGD) is a stable temporal-difference method whose usefulness is limited by the need of two independent samples for the state that will be visited next, rather than just one sample. This second independent sample is often not accessible. To get around this issue the authors extend the borrowing-from-the-future (BFF) algorithm to action-value function based model-free control. The analysis of the algorithm shows that when the underlying dynamics vary slowly with respect to the actions, it approximates well the unbiased SGD. The authors then confirm their theoretical findings with numerical simulations.  This paper addresses an important issue in Temporal Difference Control with function approximation with great clarity and paves the way towards further developments of this algorithmic approach to Reinforcement Learning.</p>
+</blockquote>
+<p><a href="../slides/id33.pdf">slides</a> <a href="https://drive.google.com/file/d/1GCTQXBFVPofdouDHQ9ik0ZoEbPHzJnEj/view?usp=sharing">video</a> <a href="../papers/id33.pdf">paper</a></p>
+<ul>
+<li><strong>Ground States of Quantum Many Body Lattice Models via Reinforcement Learning</strong>, Willem Gispen (University of Cambridge), Austen Lamacraft (University of Cambridge)</li>
+</ul>
+<p><em>Paper Highlight, by Lin Lin</em></p>
+<blockquote>
+<p>This paper formulates the problem of finding the ground state of lattice quantum systems as a reinforcement learning problem. This paper focuses on two main setups: 1) mapping the Feynman-Kac representation to RL in the continuous time; 2) mapping the stochastic representation of the Schrödinger equation to RL in the discrete time. In the first case, the imaginary time evolution is used to give a solution to the ground state in the infinite time limit; In the second case, two different ways are given for the normalization of transition probability. The authors propose a logarithmic transformation, turning the stochastic representation into a Bellman equation. The validity of the transformation is based on the assumption that the Hamiltonian is stoquastic and the Perron-Frobenius theorem. Compared to other techniques like Stochastic Reconfiguration (SR), the two benefits can be provided by this RL methods are: 1) less data may be needed for one step update; 2) samples could be generated more efficiently.</p>
+</blockquote>
+<p><a href="../slides/id51.pdf">slides</a> <a href="https://drive.google.com/file/d/1PG-Xkj38n5KkHMYy6KyuHtBqWl44tF8M/view?usp=sharing">video</a> <a href="../papers/id51.pdf">paper</a></p>
+<ul>
+<li><strong>Decentralized Multi-Agents by Imitation of a Centralized Controller</strong>, Alex Lin (UCLA), Mark Debord (NAVAIR); Gary Hewer (NAVAIR); Katia Estabridis (NAVAIR); Guido F Montufar (UCLA / Max Planck Institute MIS); Stanley Osher (UCLA)</li>
+</ul>
+<p><em>Paper Highlight, by Dmitry Borisovich Rokhlin</em></p>
+<blockquote>
+<p>The paper concerns the construction of decentralized agent strategies with local observations by a dynamical version of the supervised learning. This construction is based on a centralized controller
+(expert), which is trained under the full observability assumption. The fruitful idea is to sequentially extend the training set by application of the current agent policies and train these policies on the
+extended set by measuring the deviation from the expert policy by some loss function. The authors provide interesting applications to complex learning tasks such as StarCraft 2 game and cooperative
+navigation.</p>
+</blockquote>
+<p><a href="../slides/id53.pdf">slides</a> <a href="https://drive.google.com/file/d/1WX2U3ietg2u9ghh6dhCn66g0qpjbNIr6/view?usp=sharing">video</a> <a href="../papers/id53.pdf">paper</a></p>
+<ul>
+<li><strong>Noise-Robust End-to-End Quantum Control using Deep Autoregressive Policy Networks</strong>, Jiahao Yao (University of California, Berkeley), Paul Köttering (University of California, Berkeley); Hans Gundlach (University of California, Berkeley); Lin Lin (University of California, Berkeley); Marin Bukov (University of California, Berkeley)</li>
+</ul>
+<p><em>Paper Highlight, by Gautam Nallamala</em></p>
+<blockquote>
+<p>Machine learning models are a natural source of optimization methods to problems in quantum control, which are often formulated as the task of directing an initial quantum state to the ground state of a many-body system using an appropriate sequence of unitary evolution operators. Quantum many-body states are intrinsically high-dimensional and the energy landscape has a complex, non-convex structure, which makes deep reinforcement learning (DRL) an appropriate framework for the task. In this paper, the authors develop a hybrid discrete-continuous DRL algorithm to prepare the ground state of a quantum Ising model. The task can be formulated as a goal-oriented &ldquo;foraging&rdquo; task of finding an appropriate sequence of unitary operations to rotate an initial state towards a minimal energy state (which is a priori unknown). Past work done on the same setup either optimized for the discrete choice of rotation operators and used black-box methods to find the durations of each operation (CD-QAOA) or considered only two operators and optimized for the durations using a policy gradient-based algorithm (PG-QAOA). While the former produced better solutions, the latter was found to be more robust to noise. This works combines insights from the two previous approaches and develops an algorithm (RL-QAOA) that achieves a good solution while also being noise-robust. The developed algorithm has potential applications beyond quantum control, for example, hierarchical control problems such as motor sequence execution in which it is not only important to choose which actions from a broad class are to be executed but also how this action is to be performed specifically in a given context.</p>
+</blockquote>
+<p><a href="../slides/id56.pdf">slides</a> <a href="https://drive.google.com/file/d/1u9VjFfT3iZwRkPt3dl3lthlmk0TmvdzW/view?usp=sharing">video</a> <a href="../papers/id56.pdf">paper</a></p>
+<ul>
+<li><strong>Temporal-difference learning with nonlinear function approximation: lazy training and mean field regimes</strong>, Andrea Agazzi (Duke University), Jianfeng Lu (Duke University)</li>
+</ul>
+<p><em>Paper Highlight, by Phan-Minh Nguyen</em></p>
+<blockquote>
+<p>The convergence behavior of the Temporal-difference (TD) learning algorithm is an important open problem. The paper gives several positive results in the difficult nonlinear TD setting with large-width two-layer neural networks, all via interesting connections with recent advances in analyses of neural network dynamics: lazy and mean field training. In particular, in the lazy regime, the paper neatly exploits the idea of linearization, thereby allowing to apply previous insights from the linear TD setting. In the mean field regime where linearization no longer holds, the paper again recognizes applicability of a number of ideas from previous studies of mean field gradient descent training, such as Wasserstein flows, topological invariance and the instability argument under universal approximation. It has to be emphasized that these connections are not a priori obvious and technical works require careful execution. For much to be done in about 40 pages, the paper would be a nice read to those who seek new directions in theoretical reinforcement learning, as well as those who hope to find inspirations beyond the gradient-based supervised learning context.</p>
+</blockquote>
+<p><a href="../slides/id57.pdf">slides</a> <a href="https://drive.google.com/file/d/1M5berpG8kJNll_JFllmq8SbSvPYZ5b65/view?usp=sharing">video</a> <a href="../papers/id57.pdf">paper</a></p>
 <h2 id="a-names7a-session-7-pdes-and-odessession7"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session7">Session 7: PDEs and ODEs</a></h2>
 <h3 id="chairs-ben-peherstorfer-nyu-and-nick-boffi-nyu">Chairs: Ben Peherstorfer (NYU) and Nick Boffi (NYU)</h3>
 <ul>
-<li>
-<p><strong>Some observations on partial differential equations in Barron and multi-layer spaces</strong>, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)</p>
-</li>
-<li>
-<p><strong>A deep learning method for solving Fokker-Planck equations</strong>, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)</p>
-</li>
-<li>
-<p><strong>Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE</strong>, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)</p>
-</li>
-<li>
-<p><strong>Active learning with importance sampling: Optimizing objectives dominated by rare events to improve generalization</strong>, Grant M Rotskoff (Stanford University), Eric Vanden-Eijnden (New York University)</p>
-</li>
-<li>
-<p><strong>A semigroup method for high dimensional committor functions based on neural network</strong>, Haoya Li (Stanford University), Yuehaw Khoo (U Chicago); Yinuo Ren (Peking University); Lexing Ying (Stanford University)</p>
-</li>
+<li><strong>Some observations on partial differential equations in Barron and multi-layer spaces</strong>, Weinan E (Princeton University); Stephan Wojtowytsch (Princeton University)</li>
 </ul>
+<p><em>Paper Highlight, by Juncai He</em></p>
+<blockquote>
+<p>Barron and tree-like spaces are considered as appropriate function spaces to study the mathematical aspects of neural networks with one or multi hidden layers. This paper presents some observations about the Barron or tree-like regularities of solutions of three prototypical PDEs (screened Poisson, heat, and viscous HJB). From a mathematical perspective, the proof techniques are not difficult, but, some interesting results show that the Barron regularity may differ from the classical regularity theory of PDEs in certain aspects. Due to the increasing attempts of solving PDEs by neural networks, studying the regularity theory for PDEs under such function spaces plays a fundamental role in it.</p>
+</blockquote>
+<p><a href="../slides/id14.pdf">slides</a> <a href="https://drive.google.com/file/d/1IRK7xdsjhzpM_2Vj2e_b_QPDRiG5IR3A/view?usp=sharing">video</a> <a href="../papers/id14.pdf">paper</a></p>
+<ul>
+<li><strong>A deep learning method for solving Fokker-Planck equations</strong>, Yao Li (University of Massachusetts Amherst), Matthew Dobson (University of Massachusetts Amherst); Jiayu Zhai (University of Massachusetts Amherst)</li>
+</ul>
+<p><em>Paper Highlight, by Raffaele Marino</em></p>
+<blockquote>
+<p>The theory of Brownian motion, developed in different formulations by Einstein, Smoluchowski, and Langevin around 1905 and 1906, describes the dynamics of a particle suspended in a fluid. A prototypical example is a small colloidal object, e.g., a polystyrene bead about a micrometer in size, floating in the water at room temperature. Even without the action of externally applied forces, the particle is in an animated and erratic state of motion. This motion is generated at microscopic scales by collisions with the water molecules. It is visible at mesoscopic scales as an irregular diffusive movement. The Brownian motion has been successfully modeled by stochastic differential equations. Stochastic differential equations are used, in general, to model the dynamics of many real-world problems in the presence of uncertainty. The instantaneous and cumulative effects of the noise on the dynamics can be visualized through the probability distribution of the solution process. The Fokker-Planck equation (also known as the Kolmogorov forward equation) can analytically describe this probability measure. In general, this partial differential equation (PDE) cannot be solved analytically when the number of dimensions is high, and, therefore, numerical methods must be used. Traditional PDE solvers do not work well for the Fokker-Planck due to the curse of dimensionality and many other issues that high dimensional spaces bring together. However, recently, the application of deep learning methodology has shown many interesting results in solving PDEs in high-dimensional spaces. Deep learning is a class of machine learning algorithms that uses multiple layers to extract higher-level features from the raw input. It is based on Artificial Neural Networks, a series of functional transformations that can be obtained by fixing a set of basic functions in advance and allowing them to be adaptive during training. In this manuscript, the authors propose a mesh-free Fokker-Planck solver, in which a deep neural network represents the stationary solution to the Fokker-Planck equation and where just a small data set as a reference to locate the solution near the empirical probability distribution is needed. By introducing the differential operator of the Fokker-Planck equation into the loss function, the authors show improvements in the accuracy of the neural network representation with a reduction of the demand of data in the training process, reducing, therefore, the computational complexity for solving those kinds of PDE. Their simulations show that the neural network can tolerate very high noise in the training data long as it is spatially uncorrelated. This method, therefore, can help to deal with systems composed of many Brownian particles. It can be applied in many fields to understand the agents&rsquo; collective behavior comprising a complex system.</p>
+</blockquote>
+<p><a href="../slides/id48.pdf">slides</a> <a href="https://drive.google.com/file/d/1dP-yr4xc0M-A6fY-5AJrTdUJy4vAsc81/view?usp=sharing">video</a> <a href="../papers/id48.pdf">paper</a></p>
+<ul>
+<li><strong>Parameter Estimation with Dense and Convolutional Neural Networks Applied to the FitzHugh-Nagumo ODE</strong>, Johann Rudi (Argonne National Laboratory), Julie Bessac (Argonne National Laboratory); Amanda Lenzi (Argonne National Laboratory)</li>
+</ul>
+<p><em>Paper Highlight, by Zhizhen Zhao</em></p>
+<blockquote>
+<p>This paper discusses a parameter estimation problem for a specific system of ODEs, i.e., the FitzHugh–Nagumo equations that describe spiking neurons. The parameter estimation problem is
+highly nonlinear. It is challenging and expensive to solve this inverse problem with the classical Bayesian framework. As such, the authors propose to use deep neural networks to learn a direct nonlinear
+mapping from the measured time-series to the underlying ODE parameters. The paper has a very strong emphasis on the application and the authors provided an extensive analysis of results for simulated
+clean and noisy observations. The authors compared CNNs with fully connected (dense) networks for parameter estimation. CNN architectures mostly show the lowest errors when recovering parameters, which can be attributed to their locally acting kernels being advantageous for time-evolving data. In addition, CNNs extract crucial properties or dynamics of the ODE output when predicting parameters from arbitrarily chosen partial observations; dense NNs, in contrast, perform significantly worse.</p>
+</blockquote>
+<p><a href="../slides/id54.pdf">slides</a> <a href="https://drive.google.com/file/d/1enOFjbkzyzyQm-cA4kUsrUSZyLcsM6_s/view?usp=sharing">video</a> <a href="../papers/id54.pdf">paper</a></p>
+<ul>
+<li><strong>Active learning with importance sampling: Optimizing objectives dominated by rare events to improve generalization</strong>, Grant M Rotskoff (Stanford University), Eric Vanden-Eijnden (New York University)</li>
+</ul>
+<p><em>Paper Highlight, by Lin Lin</em></p>
+<blockquote>
+<p>The authors introduce an approach that combines rare events sampling techniques with neural network optimization to optimize objective functions that are dominated by rare events. This is a variance reduction technique, which evaluates the gradient of the loss function based on a partition of unity type of construction. The online construction of these windowing functions enables the adaptive sampling of regions of interest. Numerical experiments indicate that the method can be used to successfully solve high dimensional partial differential equations.</p>
+</blockquote>
+<p><a href="../slides/id55.pdf">slides</a> <a href="https://drive.google.com/file/d/1v1iWPNv1Ual5KtrMCTtLzX_ELg6ekEkJ/view?usp=sharing">video</a> <a href="../papers/id55.pdf">paper</a></p>
+<ul>
+<li><strong>A semigroup method for high dimensional committor functions based on neural network</strong>, Haoya Li (Stanford University), Yuehaw Khoo (U Chicago); Yinuo Ren (Peking University); Lexing Ying (Stanford University)</li>
+</ul>
+<p><em>Paper highlight, by Jiequn Han</em></p>
+<blockquote>
+<p>This paper proposes a new method based on neural networks to compute the high-dimensional committor functions. Understanding transition dynamics from the commitor function is a fundamental problem in statistical mechanics with decades of work behind it. Traditional numerical methods have an intrinsic limitation in solving general high-dimensional commitor functions. Algorithms based on neural networks have received much interest in the community, all based on the Fokker-Planck equation&rsquo;s variational form. This paper&rsquo;s main innovation lies in proposing a new variational formulation (loss function) based on the differential operator&rsquo;s semigroup. The new formulation does not contain any differential operator, and the authors explicitly derive the loss&rsquo;s graidents used for the training. The gradients only involve the first-order derivatives of the neural networks, in contrast to the second-order derivatives required in the previous methods. This feature is conceptually beneficial to the efficient training of neural networks. Numerical results on the standard testing examples and the Ginzburg-Landau model demonstrate the superiority of the proposed method. Besides, the authors also show that in the lazy training regime, the corresponding gradient flow converges at a geometric rate to a local minimum under certain assumptions.</p>
+</blockquote>
+<p><a href="../slides/id59.pdf">slides</a> <a href="https://drive.google.com/file/d/1DtV2ku7ZAPJyeyqbdeHL2M1ZSyzAjAmV/view?usp=sharing">video</a> <a href="../papers/id59.pdf">paper</a></p>
 <h2 id="a-names8a-session-8-computational-physicssession8"><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="../session8">Session 8: Computational Physics</a></h2>
 <h3 id="chair-eric-vanden-eijnden-nyu">Chair: Eric Vanden-Eijnden (NYU)</h3>
 <ul>
-<li>
-<p><strong>Implicit form neural network for learning scalar hyperbolic conservation laws</strong>, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).</p>
-</li>
-<li>
-<p><strong>Numerical Calabi-Yau metrics from holomorphic networks</strong>, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)</p>
-</li>
-<li>
-<p><strong>A Data Driven Method for Computing Quasipotentials</strong>, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)</p>
-</li>
-<li>
-<p><strong>Optimal Policies for a Pandemic: A Stochastic Game Approach and a Deep Learning Algorithm</strong>, Yao Xuan (University of California, Santa Barbara); Robert A Balkin (Univeristy of California Santa Barbara); Jiequn Han (Princeton University); Ruimeng Hu (University of California, Santa Barbara), Hector Ceniceros (University of California, Santa Barbara)</p>
-</li>
-<li>
-<p><strong>Reconstruction of Pairwise Interactions using Energy-Based Models</strong>, Christoph Feinauer (Bocconi University), Carlo Lucibello (Bocconi University)</p>
-</li>
+<li><strong>Implicit form neural network for learning scalar hyperbolic conservation laws</strong>, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).</li>
 </ul>
+<p><a href="../slides/id2.pdf">slides</a> <a href="https://drive.google.com/file/d/1zROUbH2Yft6HQDw2eBAjB_Mlvs90i67Q/view?usp=sharing">video</a> <a href="../papers/id2.pdf">paper</a></p>
+<p><em>Paper Highlight, by Yibo Yang</em>:</p>
+<blockquote>
+<p>This paper proposes an unsupervised learning method &mdash;- Implicit Form Neural Networks (IFNN) using neural networks to solve partial differential equations (PDEs) whose solutions have discontinuities such as shock waves, etc. This approach is interesting as it leverages the conservation laws (prior knowledge) in the implicit form of PDEs solutions with neural networks to approximate the solution of differential equations. It also addresses problems (inviscid Burgers equations and Lighthill-Whitham-Richards model) that are not trivial for conventional physics-informed machine learning tools. Furthermore, the proposed framework is easy to implement and has potential scalabilities.</p>
+</blockquote>
+<ul>
+<li><strong>Numerical Calabi-Yau metrics from holomorphic networks</strong>, Michael R Douglas (Stony Brook University), Yidi Qi (Stony Brook University)</li>
+</ul>
+<p><em>Paper Highlight, by Lara Anderson</em>:</p>
+<blockquote>
+<p>Calabi-Yau manifolds and their associated Ricci-flat metrics have played a crucial role within string theory for several decades already. These metrics determine much of the structure of the low energy physical theories and as such are essential for a detailed understanding of many string vacua. Although Yau&rsquo;s theorem guarantees the existence of Ricci-flat metrics on these SU(3) holonomy spaces, the absence of continuous isometries has meant that no (non-trivial) examples have yet been found explicitly. As a result, the question of whether such metrics can be accurately approximated numerically is a very important one. Substantial work has occurred in recent years on this front, including implementations of the well-known Donaldson Algorithm (including work by one of the authors of the present paper).In this context, the question of whether machine learning/holomorphic networks can efficiently and accurately approximate Calabi-Yau metrics is a very interesting one. The present work provides an excellent &lsquo;proof of principle&rsquo; of this approach and will be likely one of the first such papers in a rapidly emerging sub-field.</p>
+</blockquote>
+<p><a href="../slides/id29.pdf">slides</a> <a href="https://drive.google.com/file/d/1oW_prXjnCebaCC3DdbcEFVAzgogdx38L/view?usp=sharing">video</a> <a href="../papers/id29.pdf">paper</a></p>
+<ul>
+<li><strong>A Data Driven Method for Computing Quasipotentials</strong>, Bo Lin (National University of Singapore), Qianxiao Li (National University of Singapore); Weiqing Ren (National University of Singapore)</li>
+</ul>
+<p><em>Paper Highlight, by Alessandro Laio</em>:</p>
+<blockquote>
+<p>The quasipotential plays an extremely important role in dynamic system theory: it can be seen as a generalization of  the free energy to the case of dynamics which do not admit a zero-current equilibrium measure. Estimating it is a challenge inheriting all the difficulties of standard free energy estimates: &ldquo;interesting&rdquo; dynamic systems are typically multidimensional, bringing to a potential  arbitrarity in the choice of the variables used to  estimate and represent it, and are often characterized by metastability and kinetic traps, which make sampling difficult.  The critical extra difficulty of estimating the quasipotential  is  the presence of currents, which induce systematic errors if one blindly uses  an ordinary free energy estimator. The paper proposes to estimate  the quasipotential V using a decomposition of the vector field generating the dynamics in a gradient field \grad V and in a vector field g orthogonal to \grad V. The key idea is then estimating V and g by two neural networks. This allows exploiting  the representation power of neural networks in solving a difficult decomposition task. The approach is potentially very powerful, as illustrated in particular by the example of the  Brusselator. A challenge for the future will be exploiting this idea to estimate the quasipotential in dynamics systems with a relevance in application, such as climate models, or molecular dynamics in the presence of non-conservative forces.</p>
+</blockquote>
+<p><a href="../slides/id35.pdf">slides</a> <a href="https://drive.google.com/file/d/1HZ4lS5L-JaGiSdNlbaYPPTEnkfcjWNFB/view?usp=sharing">video</a> <a href="../papers/id35.pdf">paper</a></p>
+<ul>
+<li><strong>Optimal Policies for a Pandemic: A Stochastic Game Approach and a Deep Learning Algorithm</strong>, Yao Xuan (University of California, Santa Barbara); Robert A Balkin (Univeristy of California Santa Barbara); Jiequn Han (Princeton University); Ruimeng Hu (University of California, Santa Barbara), Hector Ceniceros (University of California, Santa Barbara)</li>
+</ul>
+<p><em>Paper Highlight, by Antoine Baker</em>:</p>
+<blockquote>
+<p>The authors propose to model the pandemic policies as a stochastic game, where each region can control the lockdown or the effort put in the healthcare system. The optimal policies are obtained by the usual Hamilton-Jacobi-Bellman equations but these are numerically intractable as the number of regions grows. The deep fictitious play algorithm tackles this kind of problem by approximating the value function and the optimal controls by neural networks. I especially like the pedagogical presentation of the algorithm, which is accessible even to non-specialists of game theory.</p>
+</blockquote>
+<p><a href="../slides/id42.pdf">slides</a> <a href="https://drive.google.com/file/d/1DvktudReF8mfN5DdfJeIifk7fjm3zT6R/view?usp=sharing">video</a> <a href="../papers/id42.pdf">paper</a></p>
+<ul>
+<li><strong>Reconstruction of Pairwise Interactions using Energy-Based Models</strong>, Christoph Feinauer (Bocconi University), Carlo Lucibello (Bocconi University)</li>
+</ul>
+<p><em>Paper Highlight, by Manon Michel</em>:</p>
+<blockquote>
+<p>This work deals with the determination of the pairwise couplings between binary variables while in the presence of higher-order interaction terms. The main point is to enforce a pairwise component in the energy function in an energy-based models (EBM) learnt over a multilayer perceptron architecture, and to reconstruct the complete pairwise couplings (thanks to the symmetry trick of the binary variables {-1,+1}), once training is over. Numerical experiments are carried over systems with Gaussian couplings. At the time of writing this text, questions still remain on the actual novelty of the approach on one hand, and on the efficiency on real applications on the other. Clarifications from the authors and discussions with other MSML participants during the presentation may then point to interesting developments. Namely,
+Regarding novelty, one could argue the general strategy of combining a simple and physical model with a universal approximator has been already proposed and applied. The presented work here should be then put into this perspective, although could argue the systems of interest (inverse Ising problems) and the reconstruction trick (known beforehand) are a new addition.</p>
+</blockquote>
+<p><a href="../slides/id47.pdf">slides</a> <a href="https://drive.google.com/file/d/1j2pPltiwJ6oSnlM9iAJClcQ2S8c3MHXi/view?usp=sharing">video</a> <a href="../papers/id47.pdf">paper</a></p>
 </div>
     </div>
   </div>

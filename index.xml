@@ -32,6 +32,16 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
+      <title>Accepted Papers</title>
+      <link>https://msml21.github.io/accepted/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/accepted/</guid>
+      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin)  Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)  Paper Highlight
+ This paper proposes a novel method for stochastic blackbox optimization using zeroth-order oracles (ZO), by using the ZO queries to estimate curvature information. The paper complements a nice theoretical analysis with compelling numerical experiments. All reviewers agreed this paper brings a very interesting contribution to the growing literature of black-box optimization.</description>
+    </item>
+    
+    <item>
       <title>Call for Papers</title>
       <link>https://msml21.github.io/cfp/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -50,17 +60,6 @@ MSML2021 is the second edition of a newly established conference, with emphasis 
       <description>Chair: Eric Vanden-Eijnden (NYU) Time: August 19th, 1:10pm-2pm ET, 19:10-20:00 CET, 01:10-02:00 GMT+8  Implicit form neural network for learning scalar hyperbolic conservation laws, Xiaoping Zhang (Wuhan University); Tao Cheng (Wuhan University); Lili Ju (University of South Carolina).  slides video paper
 Paper Highlight, by Yibo Yang:
  This paper proposes an unsupervised learning method &amp;mdash;- Implicit Form Neural Networks (IFNN) using neural networks to solve partial differential equations (PDEs) whose solutions have discontinuities such as shock waves, etc.</description>
-    </item>
-    
-    <item>
-      <title>Conference Program</title>
-      <link>https://msml21.github.io/accepted/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>https://msml21.github.io/accepted/</guid>
-      <description>Session 1: Optimization and Algorithms Chair: Rachel Ward (UT Austin)   Hessian-Aided Random Perturbation (HARP) Using Noisy Zeroth-Order Queries, Jingyi Zhu (Alibaba Group)
-  Average-Case Integrality Gap for Non-Negative Principal Component Analysis, Afonso S Bandeira (ETH); Dmitriy Kunisky (New York University), Alex Wein (NYU)
-  A Qualitative Study of the Dynamic Behavior for Adaptive Gradient Algorithms, Chao Ma (Princeton University), Lei Wu (Princeton University), Weinan E (Princeton University)</description>
     </item>
     
     <item>
