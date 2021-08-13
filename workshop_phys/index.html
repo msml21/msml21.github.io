@@ -154,24 +154,87 @@
   <div class="row justify-content-start">
     <div class="col-14 col-md-10">
       <h1 class="title">Computational Physics Workshop</h1>
-      <div class="content"><h2 id="computational-mathematics">Computational Mathematics</h2>
-<h3 id="organisers-jianfeng-lu-gitta-kutyniok-steve-brunton-afonso-bandeira-ben-peherstofer-paris-perdikaris">Organisers: <strong>Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris</strong></h3>
-<h3 id="date-august-17th">Date: August 17th</h3>
-<p>The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.</p>
-<p>Current Schedule, in UTC time:</p>
-<ul>
-<li>13:00 - 13:40 Andrew Stuart</li>
-<li>13:50 - 14:30 Sid Mishra</li>
-<li>14:50 - 15:30 Gitta Kutyniok</li>
-<li>15:40 - 16:20 Michael Brenner</li>
-<li>16:30 - 17:00 Round table discussion</li>
-</ul>
-<h2 id="computational-physics">Computational Physics</h2>
-<h3 id="organisers-gabor-csanyi-kyle-cranmer-shirley-ho-michelle-ceriotti">Organisers <strong>Gabor Csanyi, Kyle Cranmer, Shirley Ho, Michelle Ceriotti</strong></h3>
+      <div class="content"><h3 id="organisers-gabor-csanyi-cambridge-kyle-cranmer-nyu--shirley-ho-flatiron-institute-michelle-ceriotti-epfl">Organisers <strong>Gabor Csanyi (Cambridge), Kyle Cranmer (NYU) , Shirley Ho (Flatiron Institute), Michelle Ceriotti (EPFL)</strong></h3>
 <h3 id="date-august-18th">Date: August 18th</h3>
 <p>This workshop aims to explore current frontiers and challenges of Machine Learning for the physical sciences, covering a wide range of disciplines</p>
-<p>Confirmed Speakers:</p>
-<p>Julia Westermayr, Vanessa Bohm, George Booth, Christoph Ortner, Kyle Cranmer</p>
+<p>15:00-15:30 Christoph Ortner
+15:40-16:10 Julia Westermayr
+16:20-16:50 George Booth
+17:00-17:30 Vanessa Böhm
+17:40-18:10 Kyle Cranmer</p>
+
+
+
+<p class="speshal-fancy-custom">
+<table style="width: 100%">
+    <colgroup>
+	<col span="1" style="width: 10%;">
+	<col span="1" style="width: 10%;">
+	<col span="1" style="width: 10%;">
+	<col span="1" style="width: 70%;">
+    </colgroup>
+    <thead>
+        <tr>
+	    <th>ET</th>
+	    <th>CET</th>
+	    <th>GMT+8</th>
+            <th>Speaker</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+	    <td style="background-color: #73AE29"> 9:00am-9:30am</td>
+	    <td style="background-color: #738E29"> 15:00-15:30</td>
+	    <td style="background-color: #739E29"> 21:00-21:30</td>
+            <td style="background-color: #F5D0A9"> <a href=#ortner>Christoph Ortner TBA </a></td>
+        </tr>
+        <tr>
+	    <td style="background-color: #73AE29"> 9:40am-10:10am</td>
+	    <td style="background-color: #738E29"> 15:40-16:10</td>
+	    <td style="background-color: #739E29"> 21:40-22:10</td>
+            <td style="background-color: #F5D0A9"><a href=#Westermayr>Julia Westermayr: Learning orbital energies and excited states of functional organic molecules</a></td>
+       </tr>
+        <tr>
+	    <td style="background-color: #73AE29"> 10:20am-10:50am</td>
+	    <td style="background-color: #738E29"> 16:20-16:50</td>
+	    <td style="background-color: #739E29"> 22:20-22:50</td>
+            <td style="background-color: #F5D0A9"><a href=#booth>George Booth: A Bayesian machine-learning perspective on the quantum many-electron problem</a></td>
+       </tr>
+       <tr>
+	    <td style="background-color: #73AE29"> 11:00am-11:30am</td>
+	    <td style="background-color: #738E29"> 17:00-17:30</td>
+	    <td style="background-color: #739E29"> 23:00-23:30</td>
+            <td style="background-color: #F5D0A9"><a href=#bohm>Vanessa Bohm: TBA </a></td>
+       </tr>
+       <tr>
+	    <td style="background-color: #73AE29"> 11:40am-12:10pm</td>
+	    <td style="background-color: #738E29"> 17:40-18:10</td>
+	    <td style="background-color: #739E29"> 23:40-00:10</td>
+            <td style="background-color: #F5D0A9"><a href=#kyle>Kyle Cranmer: Studying the effectiveness of inductive bias with a physics-inspired generative model</a></td>
+       </tr>
+</tbody>
+</table>
+
+</p>
+
+
+
+<h3 id="abstracts">Abstracts</h3>
+<h4 id="christoph-ortner-warwick-tba">Christoph Ortner (Warwick): TBA</h4>
+<h4 id="julia-westermayr-warwick-learning-orbital-energies-and-excited-states-of-functional-organic-molecules">Julia Westermayr (Warwick) :Learning orbital energies and excited states of functional organic molecules</h4>
+<p>A computationally efficient description of the excited states of functional organic molecules can significantly advance the research field of optoelectronics. This is, because knowing the level alignment of molecules, can enable a targeted design of novel functional materials with tailored optoelectronic properties. However, high throughput spectroscopic characterization of candidate molecules is tedious and computational methods are either limited by high computational costs or low accuracy [1].
+In this talk, we will show how machine learning models can be used to predict molecular excited states with experimental accuracy and low computational costs. Our new method is based on two interdependent machine learning models: The first one is physically inspired by a quantum chemical Hamiltonian and describes orbital energies of molecules as eigenvalues of a latent machine learning Hamiltonian matrix. The second model is used to correct orbital energies to quasiparticle energies that can be compared to experiment [2]. We evaluate the accuracy and reliability of the model by learning molecules represented in the spectroscopy dataset “OE62” [3] and by predicting optoelectronic properties of unseen molecules relevant in optoelectronics [2].</p>
+<p>[1] J. Westermayr, P. Marquetand, Chem. Rev., in press, doi:10.1021/acs.chemrev.0c00749 (2020).
+[2] J. Westermayr and R. J. Maurer, Chem. Sci. (2021); doi:10.1039/D1SC01542G
+[3] A. Stuke, C. Kunkel, D. Golze, M. Todorović, J. T. Margraf, K. Reuter, P. Rinke, and H. Oberhofer, Sci. Data. 7, 58 (2020).</p>
+<h4 id="george-booth-kings-college-london-a-bayesian-machine-learning-perspective-on-the-quantum-many-electron-problem">George Booth (King&rsquo;s College London): A Bayesian machine-learning perspective on the quantum many-electron problem</h4>
+<p>The quantum many-body problem is a keystone challenge, with developments impacting fields from materials science, to nuclear structure. The problem at its heart is exponentially complex, and we have been looking into a new Bayesian framework for describing the complexity of these states. Specifically, we have developed a Gaussian process regression framework for entangled quantum states, with development of a physically motivated kernel. This has lead to new levels of accuracy in describing the physics of strongly entangled quantum systems, new supervised learning optimization strategies and a novel perspective on this fundamental object of quantum many-body problems. However, in this recasting of quantum systems into a machine learning problem, we also find that many of the challenges in the field (e.g. frustrated quantum magnetism) can be also recast as problems of generalization in a machine learning context. Finally, we will briefly mention new research themes which have opened up from this work that we are exploring, including the use of this wave function specification as a new model within classical machine learning classification and regression tasks.</p>
+<p>Refs:
+A Glielmo, Y Rath, G Csányi, A De Vita, GH Booth, Physical Review X, 10, 041026 (2020)
+Y Rath, A Glielmo, GH Booth, Journal of Chemical Physics, 153, 124108 (2020)</p>
+<h4 id="vanessa-bohm-uc-berkeley-tba">Vanessa Bohm (UC Berkeley): TBA</h4>
+<h4 id="kyle-cranmer-nyu-studying-the-effectiveness-of-inductive-bias-with-a-physics-inspired-generative-model">Kyle Cranmer (NYU): Studying the effectiveness of inductive bias with a physics-inspired generative model</h4>
+<p>Motivated by the desire to better understand the interactions between the structure of the data, the models, and the learning algorithms we have developed a physics-inspired generative model to explore the effectiveness of different types of inductive bias. The generative model is a Markov process that branches as it evolves such that each instance is a tree. The features associated to the leaves of the tree are observed, while the rest of the tree is latent. It is a simplification of the “parton shower” process that produces sprays of particles at the large hadron collider known as “jets” and it has similarities to phylogenetic trees. In parallel, we have developed dynamic programming algorithms to efficiently compute the marginal likelihood and maximum a posteriori tree given a set of leaves over the combinatorially large search space. These developments provide powerful tools to study the effectiveness of different forms of inductive bias including graph networks, message passing networks, deep sets, and TreeRNNs. This work also connects to recent ideas such as algorithmic alignment.</p>
 </div>
     </div>
   </div>
