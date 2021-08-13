@@ -73,6 +73,17 @@ Paper Highlight, by Yibo Yang:
     </item>
     
     <item>
+      <title>Computational Physics Workshop</title>
+      <link>https://msml21.github.io/workshop_phys/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://msml21.github.io/workshop_phys/</guid>
+      <description>Computational Mathematics Organisers: Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris Date: August 17th The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.
+Current Schedule, in UTC time:
+ 13:00 - 13:40 Andrew Stuart 13:50 - 14:30 Sid Mishra 14:50 - 15:30 Gitta Kutyniok 15:40 - 16:20 Michael Brenner 16:30 - 17:00 Round table discussion  Computational Physics Organisers Gabor Csanyi, Kyle Cranmer, Shirley Ho, Michelle Ceriotti Date: August 18th This workshop aims to explore current frontiers and challenges of Machine Learning for the physical sciences, covering a wide range of disciplines</description>
+    </item>
+    
+    <item>
       <title>Conference Program</title>
       <link>https://msml21.github.io/accepted_old/</link>
       <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
@@ -243,17 +254,6 @@ Abstract: In the last fifty years, statistical physics has elaborated a large co
       
       <guid>https://msml21.github.io/schedule/</guid>
       <description>Join our Slack Workspace here to follow all updates and paper discussions. Zoom link for the conference is here.     ET CET GMT+8 Aug 16th Aug 17th Aug 18th Aug 19th     9:00am-9:10am 15:00-15:10 21:00-21:10 Opening Remarks Computational Mathematics Workshop Computational Physics Workshop MSML&#39;22 Welcome!    9:10am-10:00am 15:10-16:00 21:10-22:00 Marc Mezard Plenary Qianxiao Li Plenary   10:00am-10:20am 16:00-16:20 22:00-22:20 Break  Break    10:20am-11:10am 16:20-17:10 22:20-23:10 Session 1: Optimization and Algorithms Session 5: Inverse Problems   11:10am-12:00pm 17:10-18:00 23:10-00:00 Session 2: Learning Foundations I Session 6: Reinforcement Learning and Control   12:00pm-12:20pm 18:00-18:20 00:00-00:20 Break  Break    12:20pm-1:10pm 18:20-19:10 00:20-01:10 Session 3: Learning Foundations II Session 7: PDEs and ODEs   1:10pm-2:00pm 19:10-20:00 01:10-02:00 Session 4: High-Dimensional Statistics Session 8: Computational Physics    </description>
-    </item>
-    
-    <item>
-      <title>Workshops</title>
-      <link>https://msml21.github.io/workshop_phys/</link>
-      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
-      
-      <guid>https://msml21.github.io/workshop_phys/</guid>
-      <description>Computational Mathematics Organisers: Jianfeng Lu, Gitta Kutyniok, Steve Brunton, Afonso Bandeira, Ben Peherstofer, Paris Perdikaris Date: August 17th The purpose of this workshop is to show case key contributions in the applied and computational mathematics community related to deep learning, with an emphasis on mathematical and foundational questions as well as applications to fundamental science.
-Current Schedule, in UTC time:
- 13:00 - 13:40 Andrew Stuart 13:50 - 14:30 Sid Mishra 14:50 - 15:30 Gitta Kutyniok 15:40 - 16:20 Michael Brenner 16:30 - 17:00 Round table discussion  Computational Physics Organisers Gabor Csanyi, Kyle Cranmer, Shirley Ho, Michelle Ceriotti Date: August 18th This workshop aims to explore current frontiers and challenges of Machine Learning for the physical sciences, covering a wide range of disciplines</description>
     </item>
     
     <item>
