@@ -181,7 +181,7 @@
 	    <td style="background-color: #73AE29"> 9:00am-9:30am</td>
 	    <td style="background-color: #738E29"> 15:00-15:30</td>
 	    <td style="background-color: #739E29"> 21:00-21:30</td>
-            <td style="background-color: #F5D0A9"> <a href=#ortner>Christoph Ortner TBA </a></td>
+            <td style="background-color: #F5D0A9"> <a href=#ortner>Christoph Ortner: Atomic Cluster Expansion and Beyond- ML with Symmetry for Particle Systems </a></td>
         </tr>
         <tr>
 	    <td style="background-color: #73AE29"> 9:30am-10:00am</td>
@@ -205,7 +205,7 @@
 	    <td style="background-color: #73AE29"> 11:00am-11:30am</td>
 	    <td style="background-color: #738E29"> 17:00-17:30</td>
 	    <td style="background-color: #739E29"> 23:00-23:30</td>
-            <td style="background-color: #F5D0A9"><a href=#bohm>Vanessa Bohm: TBA </a></td>
+            <td style="background-color: #F5D0A9"><a href=#bohm>Vanessa Bohm: Anomaly Detection with the Probabilistic AutoEncoder (PAE) </a></td>
        </tr>
         <tr>
 	    <td style="background-color: #73AE29"> 11:30am-11:45am</td>
@@ -227,7 +227,8 @@
 
 
 <h3 id="abstracts">Abstracts</h3>
-<h4 id="christoph-ortner-warwick-tba">Christoph Ortner (Warwick): TBA</h4>
+<h4 id="christoph-ortner-warwick-atomic-cluster-expansion-and-beyond---ml-with-symmetry-for-particle-systems">Christoph Ortner (Warwick): Atomic Cluster Expansion and Beyond - ML with Symmetry for Particle Systems</h4>
+<p>I will briefly review machine-learning for interatomic potentials and the atomic cluster expansion (Drautz, 2019) which is a classical linear regression scheme, but with exceptional performance demonstrated in initial results. A key aspect is the construction of features describing particle configurations that capture the physical symmetries. With this review I also want to motivate various immediate generalisations which will hopefully have applications far beyond interatomic potentials, including in particular equivariant properties, inputs with different symmetries, and employing ACE in the construction of a (new?) physically informed message passing-type network architecture.</p>
 <h4 id="julia-westermayr-warwick-learning-orbital-energies-and-excited-states-of-functional-organic-molecules">Julia Westermayr (Warwick) :Learning orbital energies and excited states of functional organic molecules</h4>
 <p>A computationally efficient description of the excited states of functional organic molecules can significantly advance the research field of optoelectronics. This is, because knowing the level alignment of molecules, can enable a targeted design of novel functional materials with tailored optoelectronic properties. However, high throughput spectroscopic characterization of candidate molecules is tedious and computational methods are either limited by high computational costs or low accuracy [1].
 In this talk, we will show how machine learning models can be used to predict molecular excited states with experimental accuracy and low computational costs. Our new method is based on two interdependent machine learning models: The first one is physically inspired by a quantum chemical Hamiltonian and describes orbital energies of molecules as eigenvalues of a latent machine learning Hamiltonian matrix. The second model is used to correct orbital energies to quasiparticle energies that can be compared to experiment [2]. We evaluate the accuracy and reliability of the model by learning molecules represented in the spectroscopy dataset “OE62” [3] and by predicting optoelectronic properties of unseen molecules relevant in optoelectronics [2].</p>
@@ -239,7 +240,8 @@ In this talk, we will show how machine learning models can be used to predict mo
 <p>Refs:
 A Glielmo, Y Rath, G Csányi, A De Vita, GH Booth, Physical Review X, 10, 041026 (2020)
 Y Rath, A Glielmo, GH Booth, Journal of Chemical Physics, 153, 124108 (2020)</p>
-<h4 id="vanessa-bohm-uc-berkeley-tba">Vanessa Bohm (UC Berkeley): TBA</h4>
+<h4 id="vanessa-bohm-uc-berkeley-anomaly-detection-with-the-probabilistic-autoencoder-pae">Vanessa Bohm (UC Berkeley): Anomaly Detection with the Probabilistic AutoEncoder (PAE)</h4>
+<p>Deep generative models are powerful machine learning models that can learn complex, high-dimensional data likelihoods and should thus be naturally suited for the task of anomaly detection. However, a number of works have found that popular generative models can fail catastrophically in this task, assigning higher likelihoods to anomalous data than to the data they were trained on. In my talk I will outline possible explanations for this failure and introduce a simple, but powerful generative model, the probabilistic autoencoder, which exhibits outstanding outlier detection accuracy. I will further show how the PAE can be used to mine a dataset of millions of high resolution galaxy spectra for anomalous and potentially interesting objects.</p>
 <h4 id="kyle-cranmer-nyu-studying-the-effectiveness-of-inductive-bias-with-a-physics-inspired-generative-model">Kyle Cranmer (NYU): Studying the effectiveness of inductive bias with a physics-inspired generative model</h4>
 <p>Motivated by the desire to better understand the interactions between the structure of the data, the models, and the learning algorithms we have developed a physics-inspired generative model to explore the effectiveness of different types of inductive bias. The generative model is a Markov process that branches as it evolves such that each instance is a tree. The features associated to the leaves of the tree are observed, while the rest of the tree is latent. It is a simplification of the “parton shower” process that produces sprays of particles at the large hadron collider known as “jets” and it has similarities to phylogenetic trees. In parallel, we have developed dynamic programming algorithms to efficiently compute the marginal likelihood and maximum a posteriori tree given a set of leaves over the combinatorially large search space. These developments provide powerful tools to study the effectiveness of different forms of inductive bias including graph networks, message passing networks, deep sets, and TreeRNNs. This work also connects to recent ideas such as algorithmic alignment.</p>
 </div>
